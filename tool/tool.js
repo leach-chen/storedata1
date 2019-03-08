@@ -1,5 +1,6 @@
 {
-	"dataToolSynthesize1":[{
+	"dataToolSynthesize1":[
+		{
 		"thumbUrl":"https://www.leachchen.com/storetool1/1/tool1_1_t.jpg",
 		"previewUrl":"https://www.leachchen.com/storetool1/1/tool1_1_p.gif",
 		"downloadUrl": "https://atom.io/",

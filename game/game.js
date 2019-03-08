@@ -1,5 +1,6 @@
 {
-	"dataGameSynthesize1":[{
+	"dataGameSynthesize1":[
+		{
 			"thumbUrl": "https://www.leachchen.com/storeh5game1/1/h5game1_1_t.jpg",
 			"previewUrl": "https://www.leachchen.com/storeh5game1/1/h5game1_1_p_flappy/",
 			"downloadUrl": "https://www.leachchen.com/storeh5game1/1/h5game1_1_d_flappy.zip",

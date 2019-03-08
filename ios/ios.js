@@ -1,5 +1,6 @@
 {
-	"dataIosFull1":[{
+	"dataIosFull1":[
+		{
 		"thumbUrl": "https://www.leachchen.com/storeios1/1/ios1_1_t.jpg",
 		"previewUrl": "https://www.leachchen.com/storeios1/1/ios1_1_p.jpg",
 		"downloadUrl": "https://codeload.github.com/Aufree/ESTMusicPlayer/zip/master",

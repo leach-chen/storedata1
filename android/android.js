@@ -1,5 +1,6 @@
 {
-	"dataAndroidFull1":[{
+	"dataAndroidFull1":[
+		{
 			"thumbUrl": "https://www.leachchen.com/storeandroid1/1/android1_1_t.png",
 			"previewUrl": "https://www.leachchen.com/storeandroid1/1/android1_1_p.png",
 			"downloadUrl": "https://codeload.github.com/harjot-oberai/MusicDNA/zip/master",
@@ -14,7 +15,8 @@
 			"sold": true
 		}
 	],
-	"dataAndroidAnimation1":[{
+	"dataAndroidAnimation1":[
+		{
 			 "thumbUrl":"https://www.leachchen.com/storeandroid1/2/android1_2_t.jpg",
 			 "previewUrl":"https://www.leachchen.com/storeandroid1/2/android1_2_p.gif",
 			 "downloadUrl": "https://codeload.github.com/Airbnb/lottie-android/zip/master",
