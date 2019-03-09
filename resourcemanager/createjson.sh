@@ -280,9 +280,6 @@ byauthorurl=${byauthorurl//\//\\/}
 
 
 
-json="  {\n    thumbUrl:\"$thumbUrl\",\n    previewUrl:\"$previewUrl\",\n    downloadUrl:\"$downloadUrl\",\n    description:\"$description\",\n    type:\"$type\",\n    author:\"$author\",\n    authorurl:\"$authorurl\",\n    gitauthor:\"$gitauthor\",\n    gitrepo:\"$gitrepo\",\n    byauthor:\"$byauthor\",\n    byauthorurl:\"$byauthorurl\",\n    sold:true\n  },"
-
-echo $json
 
 #https://www.cnblogs.com/kings-9/p/7738724.html
 
@@ -296,70 +293,73 @@ replacestr=""
 if [ $type = $t_android_full_1 ];
 	then
 		jsurl=$jsurl_android
-		replacestr="\\\"dataAndroidFull1\\\"\:\["
+		replacestr="\"dataAndroidFull1\":\["
 fi	
 
 if [ $type = $t_android_animation_1 ];
 	then
 		jsurl=$jsurl_android
-		replacestr="\"dataAndroidAnimation1\"\:["
+		replacestr="\"dataAndroidAnimation1\"\:\["
 fi	
 
 if [ $type = $t_ios_full_1 ];
 	then
 		jsurl=$jsurl_ios
-		replacestr="\"dataIosFull1\"\:["
+		replacestr="\"dataIosFull1\"\:\["
 fi	
 
 if [ $type = $t_flutter_full_1 ];
 	then
 		jsurl=$jsurl_flutter
-		replacestr="\"dataFlutterFull1\"\:["
+		replacestr="\"dataFlutterFull1\"\:\["
 fi
 
 if [ $type = $t_vue_full_1 ];
 	then
 		jsurl=$jsurl_flutter
-		replacestr="\"dataVueFull1\"\:["
+		replacestr="\"dataVueFull1\"\:\["
 fi
 
 if [ $type = $t_website_css_1 ];
 	then
 		jsurl=$jsurl_website
-		replacestr="\"dataWebsiteCss1\"\:["
+		replacestr="\"dataWebsiteCss1\"\:\["
 fi
 
 if [ $type = $t_website_jekyll_1 ];
 	then
 		jsurl=$jsurl_website
-		replacestr="\"dataWebsiteJekyll1\"\:["
+		replacestr="\"dataWebsiteJekyll1\"\:\["
 fi	
 
 if [ $type = $t_website_hexo_1 ];
 	then
 		jsurl=$jsurl_website
-		replacestr="\"dataWebsiteHexo1\"\:["
+		replacestr="\"dataWebsiteHexo1\"\:\["
 fi	
 
 if [ $type = $t_website_php_1 ];
 	then
 		jsurl=$jsurl_website
-		replacestr="\"dataWebsitePhp1\"\:["
+		replacestr="\"dataWebsitePhp1\"\:\["
 fi	
 
 if [ $type = $t_game_synthesize_1 ];
 	then
 		jsurl=$jsurl_game
-		replacestr="\"dataGameSynthesize1\"\:["
+		replacestr="\"dataGameSynthesize1\"\:\["
 fi	
 
 if [ $type = $t_tool_full_1 ];
 	then
 		jsurl=$jsurl_tool
-		replacestr="\"dataToolSynthesize1\"\:["
+		replacestr="\"dataToolSynthesize1\"\:\["
 fi	
 
-echo $replacestr
+
+json="$replacestr{\n    \"thumbUrl\":\"$thumbUrl\",\n    \"previewUrl\":\"$previewUrl\",\n    \"downloadUrl\":\"$downloadUrl\",\n    \"description\":\"$description\",\n    \"type\":\"$type\",\n    \"author\":\"$author\",\n    \"authorurl\":\"$authorurl\",\n    \"gitauthor\":\"$gitauthor\",\n    \"gitrepo\":\"$gitrepo\",\n    \"byauthor\":\"$byauthor\",\n    \"byauthorurl\":\"$byauthorurl\",\n    \"sold\":true\n  },"
+
+echo $json
 
 sed -i "s/${replacestr}/${json}/g" $jsurl
 
