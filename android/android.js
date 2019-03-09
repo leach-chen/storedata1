@@ -1,18 +1,5 @@
 {
-	  {
-    thumbUrl:"https://www.leachchen.com/storeandroid1/3/android1_3_t.txt",
-    previewUrl:"https://www.leachchen.com/storeandroid1/3/android1_3_p.txt",
-    downloadUrl:"https://www.leachchen.com/storeandroid1/3/android1_3_d.txt",
-    description:"aa",
-    type:"android_full_1",
-    author:"as",
-    authorurl:"as",
-    gitauthor:"asd",
-    gitrepo:"asd",
-    byauthor:"ads",
-    byauthorurl:"asd",
-    sold:true
-  },
+	  "dataAndroidFull1":[
 		{
 			"thumbUrl": "https://www.leachchen.com/storeandroid1/1/android1_1_t.png",
 			"previewUrl": "https://www.leachchen.com/storeandroid1/1/android1_1_p.png",
