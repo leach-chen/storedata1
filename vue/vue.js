@@ -3,7 +3,7 @@
     "thumbUrl":"https://www.leachchen.com/storevue1/2/vue1_2_t.jpg",
     "previewUrl":"https://im.aermin.top/login",
     "downloadUrl":"https://codeload.github.com/aermin/react-chat/zip/master",
-    "description":"https://im.aermin.top/login",
+    "description":"用react/vue全家桶+node.js(koa)+socket.io写的即时聊天应用",
     "type":"vue_full_1",
     "author":"",
     "authorurl":"",
