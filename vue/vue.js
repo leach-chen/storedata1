@@ -6,7 +6,7 @@
     "description":"用react/vue/node(koa)/socket写的即时聊天应用",
     "type":"vue_full_1",
     "author":"",
-    "authorurl":"",
+    "authorurl":"https://github.com/aermin",
     "gitauthor":"aermin",
     "gitrepo":"react-chat",
     "byauthor":"",
