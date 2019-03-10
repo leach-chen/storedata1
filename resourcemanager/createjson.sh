@@ -316,7 +316,7 @@ fi
 
 if [ $type = $t_vue_full_1 ];
 	then
-		jsurl=$jsurl_flutter
+		jsurl=$jsurl_vue
 		replacestr="\"dataVueFull1\"\:\["
 fi
 
@@ -360,6 +360,8 @@ fi
 json="$replacestr{\n    \"thumbUrl\":\"$thumbUrl\",\n    \"previewUrl\":\"$previewUrl\",\n    \"downloadUrl\":\"$downloadUrl\",\n    \"description\":\"$description\",\n    \"type\":\"$type\",\n    \"author\":\"$author\",\n    \"authorurl\":\"$authorurl\",\n    \"gitauthor\":\"$gitauthor\",\n    \"gitrepo\":\"$gitrepo\",\n    \"byauthor\":\"$byauthor\",\n    \"byauthorurl\":\"$byauthorurl\",\n    \"sold\":true\n  },"
 
 echo $json
+
+echo $jsurl
 
 sed -i "s/${replacestr}/${json}/g" $jsurl
 
