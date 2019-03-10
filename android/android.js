@@ -46,6 +46,6 @@
 			"byauthorurl": "",
 			"sold": true
 		}
-	],
+	]
 	
 }
