@@ -37,6 +37,10 @@
 	
 	"dataAndroidSynthesize1":[
 
+	],
+	"dataAndroidArchitecture1":[
+
 	]
+	
 	
 }
