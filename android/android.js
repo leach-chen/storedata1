@@ -32,7 +32,20 @@
 		  }
 	],
 	"dataAndroidView1":[
-
+		{
+			"thumbUrl":"https://www.leachchen.com/storeandroid1/3/android1_3_t.png",
+			"previewUrl":"https://www.leachchen.com/storeandroid1/3/android1_3_p.gif",
+			"downloadUrl":"https://codeload.github.com/woxingxiao/BubbleSeekBar/zip/master",
+			"description":"自定义SeekBar，进度变化更以可视化气泡样式呈现",
+			"type":"android_synthesize_1",
+			"author":"",
+			"authorurl":"",
+			"gitauthor":"woxingxiao",
+			"gitrepo":"BubbleSeekBar",
+			"byauthor":"",
+			"byauthorurl":"",
+			"sold":true
+		  },
 	],
 	
 	"dataAndroidSynthesize1":[
