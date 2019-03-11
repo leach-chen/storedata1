@@ -236,7 +236,7 @@ echo "----------------------------------"
 echo "请输入作者url(authorurl):"
 echo "----------------------------------"
 read auturl
-authorurl=$aut
+authorurl=$auturl
 
 echo "----------------------------------"
 echo "请输入Git作者名称(gitauthor):"
