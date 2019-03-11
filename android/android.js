@@ -33,6 +33,10 @@
 	],
 	"dataAndroidView1":[
 
-	]
+	],
+	
+	"dataAndroidSynthesize1":[
+
+	],
 	
 }
