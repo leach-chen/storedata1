@@ -45,7 +45,7 @@
 			"byauthor":"",
 			"byauthorurl":"",
 			"sold":true
-		  },
+		  }
 	],
 	
 	"dataAndroidSynthesize1":[
