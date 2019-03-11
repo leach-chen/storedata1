@@ -9,8 +9,8 @@
     "authorurl":"FairyEver",
     "gitauthor":"https://github.com/FairyEver",
     "gitrepo":"d2-admin",
-    "byauthor":"",
-    "byauthorurl":"",
+    "byauthor":"FairyEver",
+    "byauthorurl":"https://github.com/FairyEver",
     "sold":true
   },{
     "thumbUrl":"https://www.leachchen.com/storevue1/2/vue1_2_t.jpg",
