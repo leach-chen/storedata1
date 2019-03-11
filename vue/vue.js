@@ -7,7 +7,7 @@
     "type":"vue_full_1",
     "author":"FairyEver",
     "authorurl":"FairyEver",
-    "gitauthor":"d2-projects",
+    "gitauthor":"https://github.com/FairyEver",
     "gitrepo":"d2-admin",
     "byauthor":"",
     "byauthorurl":"",
