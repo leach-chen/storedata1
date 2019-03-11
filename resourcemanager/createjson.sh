@@ -37,6 +37,7 @@ website1="website1"
 t_android_full_1="android_full_1"
 t_android_animation_1="android_animation_1"
 t_android_synthesize_1="android_synthesize_1"
+t_android_architecture_1="android_architecture_1"
 t_ios_full_1="ios_full_1"
 t_flutter_full_1="flutter_full_1"
 t_vue_full_1="vue_full_1"
@@ -164,6 +165,7 @@ echo "请选择资源分类:"
 echo "(101) $t_android_full_1"
 echo "(102) $t_android_animation_1"
 echo "(103) $t_android_synthesize_1"
+echo "(104) $t_android_architecture_1"
 echo "(201) $t_ios_full_1"
 echo "(301) $t_flutter_full_1"
 echo "(401) $t_vue_full_1"
@@ -186,6 +188,9 @@ case $input in
 	103)
 		type=$t_android_synthesize_1
 		;;
+	104)
+		type=$t_android_architecture_1
+		;;	
 	201)
 		type=$t_ios_full_1
 		;;
@@ -312,6 +317,13 @@ if [ $type = $t_android_synthesize_1 ];
 		jsurl=$jsurl_android
 		replacestr="\"dataAndroidSynthesize1\"\:\["
 fi	
+
+if [ $type = $t_android_architecture_1 ];
+	then
+		jsurl=$jsurl_android
+		replacestr="\"dataAndroidArchitecture1\"\:\["
+fi	
+
 
 if [ $type = $t_ios_full_1 ];
 	then
