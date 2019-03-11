@@ -47,13 +47,13 @@
 			"sold":true
 		  }
 	],
-	
+
 	"dataAndroidSynthesize1":[
 
 	],
 	"dataAndroidArchitecture1":[
 
 	]
-	
-	
+
+
 }
