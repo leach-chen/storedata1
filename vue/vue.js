@@ -1,5 +1,18 @@
 {
 	"dataVueFull1":[{
+    "thumbUrl":"https://www.leachchen.com/storevue1/3/vue1_3_t.png",
+    "previewUrl":"https://d2admin.fairyever.com",
+    "downloadUrl":"https://codeload.github.com/d2-projects/d2-admin/zip/master",
+    "description":"优雅的中台系统前端模板",
+    "type":"vue_full_1",
+    "author":"FairyEver",
+    "authorurl":"FairyEver",
+    "gitauthor":"d2-projects",
+    "gitrepo":"d2-admin",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true
+  },{
     "thumbUrl":"https://www.leachchen.com/storevue1/2/vue1_2_t.jpg",
     "previewUrl":"https://im.aermin.top/login",
     "downloadUrl":"https://codeload.github.com/aermin/react-chat/zip/master",
