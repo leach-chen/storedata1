@@ -1,5 +1,18 @@
 {
-	"dataGameSynthesize1":[
+	"dataGameSynthesize1":[{
+    "thumbUrl":"https://www.leachchen.com/storeh5game1/3/h5game1_3_t.jpg",
+    "previewUrl":"https://www.leachchen.com/storeh5game1/3/h5game1_3_p/",
+    "downloadUrl":"https://www.leachchen.com/storeh5game1/3/h5game1_3_d.zip",
+    "description":"跑酷游戏，即刻挑战",
+    "type":"game_synthesize_1",
+    "author":"zzfriend",
+    "authorurl":"http://bbs.zzfriend.com/",
+    "gitauthor":"",
+    "gitrepo":"",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true
+  },
 		{
 			"thumbUrl": "https://www.leachchen.com/storeh5game1/1/h5game1_1_t.jpg",
 			"previewUrl": "https://www.leachchen.com/storeh5game1/1/h5game1_1_p_flappy/",
