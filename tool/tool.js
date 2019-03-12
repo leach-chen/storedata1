@@ -1,5 +1,18 @@
 {
 	"dataToolSynthesize1":[{
+    "thumbUrl":"https://www.leachchen.com/storetool1/3/tool1_3_t.jpg",
+    "previewUrl":"https://www.leachchen.com/storetool1/3/tool1_3_p.gif",
+    "downloadUrl":"https://codeload.github.com/ovity/octotree/zip/master",
+    "description":"一款可以树形浏览Github代码的谷歌浏览器插件",
+    "type":"tool_synthesize1_1",
+    "author":"",
+    "authorurl":"https://github.com/ovity/",
+    "gitauthor":"ovity",
+    "gitrepo":"octotree",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true
+  },{
     "thumbUrl":"https://www.leachchen.com/storetool1/2/tool1_2_t.png",
     "previewUrl":"https://www.leachchen.com/storetool1/2/tool1_2_p.png",
     "downloadUrl":"https://netassist.updatestar.com/",
