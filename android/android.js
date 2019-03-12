@@ -61,9 +61,7 @@
     "byauthor":"",
     "byauthorurl":"",
     "sold":true
-  },
-
-	],
+  }],
 	"dataAndroidArchitecture1":[
 
 	]
