@@ -1,5 +1,18 @@
 {
 	"dataToolSynthesize1":[{
+    "thumbUrl":"https://www.leachchen.com/storetool1/4/tool1_4_t.jpg",
+    "previewUrl":"https://www.leachchen.com/storetool1/4/tool1_4_p.gif",
+    "downloadUrl":"https://www.cockos.com/licecap/",
+    "description":"一款windows、mac系统录制gif动态图片的工具，免费简单方便使用",
+    "type":"tool_synthesize1_1",
+    "author":"licecap",
+    "authorurl":"https://www.cockos.com/licecap/",
+    "gitauthor":"",
+    "gitrepo":"",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true
+  },{
     "thumbUrl":"https://www.leachchen.com/storetool1/3/tool1_3_t.jpg",
     "previewUrl":"https://www.leachchen.com/storetool1/3/tool1_3_p.gif",
     "downloadUrl":"https://chrome.google.com/webstore/search/octotree?utm_source=chrome-ntp-icon",
