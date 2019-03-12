@@ -1,8 +1,8 @@
 {
 	"dataGameSynthesize1":[{
-    "thumbUrl":"/3/game1_3_t.jpg",
-    "previewUrl":"/3/game1_3_p/",
-    "downloadUrl":"/3/game1_3_d.zip",
+    "thumbUrl":"https://www.leachchen.com/storeh5game1/3/game1_3_t.jpg",
+    "previewUrl":"https://www.leachchen.com/storeh5game1/3/game1_3_p/",
+    "downloadUrl":"https://www.leachchen.com/storeh5game1/3/game1_3_d.zip",
     "description":"跑酷游戏，即刻挑战",
     "type":"game_synthesize_1",
     "author":"zzfriend",
