@@ -63,7 +63,7 @@
     "sold":true
   }],
 	"dataAndroidArchitecture1":[
-	
+		"aa":"bb"
 	]
 
 
