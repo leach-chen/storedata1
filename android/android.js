@@ -48,7 +48,20 @@
 		  }
 	],
 
-	"dataAndroidSynthesize1":[
+	"dataAndroidSynthesize1":[{
+    "thumbUrl":"https://www.leachchen.com/storeandroid1/4/android1_4_t.png",
+    "previewUrl":"https://blankj.com/2016/07/31/android-utils-code/",
+    "downloadUrl":"https://codeload.github.com/Blankj/AndroidUtilCode/zip/master",
+    "description":"工具类大全应有尽有，更多请点击预览查看",
+    "type":"android_synthesize_1",
+    "author":"",
+    "authorurl":"https://blankj.com/",
+    "gitauthor":"Blankj",
+    "gitrepo":"AndroidUtilCode",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true
+  },
 
 	],
 	"dataAndroidArchitecture1":[
