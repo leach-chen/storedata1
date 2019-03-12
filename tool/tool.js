@@ -1,7 +1,7 @@
 {
 	"dataToolSynthesize1":[{
     "thumbUrl":"https://www.leachchen.com/storetool1/2/tool1_2_t.png",
-    "previewUrl":"https://netassist.updatestar.com/",
+    "previewUrl":"https://www.leachchen.com/storetool1/2/tool1_2_p.png",
     "downloadUrl":"https://netassist.updatestar.com/",
     "description":"网络调试助手，可通过路由器收发手机端广播包",
     "type":"tool_synthesize1_1",
