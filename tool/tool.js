@@ -2,7 +2,7 @@
 	"dataToolSynthesize1":[{
     "thumbUrl":"https://www.leachchen.com/storetool1/3/tool1_3_t.jpg",
     "previewUrl":"https://www.leachchen.com/storetool1/3/tool1_3_p.gif",
-    "downloadUrl":"https://codeload.github.com/ovity/octotree/zip/master",
+    "downloadUrl":"https://chrome.google.com/webstore/search/octotree?utm_source=chrome-ntp-icon",
     "description":"一款可以树形浏览Github代码的谷歌浏览器插件",
     "type":"tool_synthesize1_1",
     "author":"",
