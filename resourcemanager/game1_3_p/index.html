@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://games.vdcom.cn/games/wjsw/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="me/hm.js"></script>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta property="fb:app_id" content="112406602201164">
+	<meta property="og:image" content="">
+	<meta property="og:title" content="我就是我">
+	<meta property="og:type" content="website">
+    <title>我就是我-蚂蚁HTML5社区手机游戏</title>
+
+	<script src="me/sound.js" type="text/javascript"></script>
+    <script type="text/javascript" src="me/lufylegend-1.9.7.min.js"></script>
+    <script type="text/javascript" src="me/lufylegend.ui-0.10.0.min.js"></script>
+    <script src="me/Main.js" type="text/javascript"></script>
+
+</head>
+    <body style="width: 640px; margin: 0px auto; padding: 0px; background-color: rgb(0, 0, 0); cursor: default;">
+	<div class="aliForPc"><img src="me/forpc.png"></div>
+        <div id="legend"><div style="position:absolute;margin:0;padding:0;overflow:visible;-webkit-transform:translateZ(0);z-index:0;"><canvas id="legend_canvas" style="margin:0;padding:0;width:640px;height:1136px;" width="640" height="1136"></canvas></div><div id="legend_InputText" style="position:absolute;margin:0;padding:0;z-index:10;display:none;"><textarea rows="1" id="legend_InputTextareaBox" style="resize:none;background:transparent;border:0px;"></textarea><input type="text" id="legend_InputTextBox" style="background:transparent;border:0px;"><input type="password" id="legend_passwordBox" style="background:transparent;border:0px;"></div></div>
+		<link href="me/sprite.css" rel="stylesheet" type="text/css">
+<div style="position: absolute;right:0px;top:0px;max-width: 640px;margin: 0 auto;left: 0;height:1px;">
+	<img id="myimg" src="me/174232_1708.jpg" onclick="toggleFrdlist();">
+		<div style="margin:10px 0 0 0;">
+			我就是我<br>人品值：999999	</div>
+	<div id="frdlist">
+		<ul>
+		<li style="float:left;" class="page1 ">
+			<a href="me/index.html" target="_blank">
+			<img src="me/174232_1708.jpg" style="width:22%;margin:10px;float:left;">
+			</a>
+			<div style="margin:10px 0 0 0;">
+				xxx<br>人品：			</div>
+		</li>		</ul>
+		<div style="display:block;text-align: center;position: absolute;top: 275px;left: 15%;">
+			<span class="icon icon-arrow-left" onclick="prev();"></span>
+			<font>1/1</font>
+			<span class="icon icon-arrow-right" onclick="next();"></span>
+		</div>
+	</div>
+</div>
+<style>
+#frdlist{display:none;background-color: rgba(255, 255, 255, 0.8);
+width: 50%;
+height: 250px;
+box-shadow: 0px 4px 5px #CCC;
+border-radius: 6px;margin-left: 5px;
+margin-top: 15px;}
+#myimg{width:12%;float: left;margin:10px;box-shadow: 0px 4px 5px #CCC;}
+.r45{transform: rotate(45deg);-webkit-transform: rotate(45deg);}
+.hidden{display:none;}
+ .aliForPc {display:none;position:fixed;top:5px;right:5px;width:200px;height:230px;overflow:hidden;z-index:99999;}
+</style>
+<script>
+var curPage = 1,totalPage = 1;
+function toggleFrdlist(){
+	$('#frdlist').slideToggle();
+	$('#myimg').toggleClass('r45');
+}
+function prev(){
+	if(curPage<=1)return;
+	$('.page'+curPage).hide();
+	curPage--;
+	$('font').text(curPage+"/"+totalPage);
+	$('.page'+curPage).show();
+}
+function next(){
+	if(curPage>=totalPage)return;
+	$('.page'+curPage).hide();
+	curPage++;
+	$('font').text(curPage+"/"+totalPage);
+	$('.page'+curPage).show();
+}
+</script>
+		<script src="me/dcagent.min.js"></script>
+<script type="text/javascript">
+</script>
+<script>
+    function showshare(){
+	  document.getElementById("share").style.display = "";
+	};
+    function clickMore(){
+	  // Play68.goHome();
+	};
+	
+		function dp_share(a,b){
+		    if(a>0){
+			}
+		};
+</script>
+   <div id="share" style="display: none">
+	<!--百度统计 //-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?cbf20f554ba43aeba396a009eb4ab5f7";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>		
+  </div>
+
+<!--<input type="hidden" name="miguan_plugin_mode" id="miguan_plugin_mode" value="1">-->
+<!--载入方便扩展和维护代码-->
+
+</body></html>
