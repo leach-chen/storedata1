@@ -47,7 +47,7 @@ t_website_jekyll_1="website_jekyll_1"
 t_website_hexo_1="website_hexo_1"
 t_website_php_1="website_php_1"
 t_game_synthesize_1="game_synthesize_1"
-t_tool_full_1="tool_full_1"
+t_tool_synthesize1_1="tool_synthesize1_1"
 
 #data js 文件路径,新增类型需修改
 jsurl_android="android/android.js"
@@ -176,7 +176,7 @@ echo "(502) $t_website_jekyll_1"
 echo "(503) $t_website_hexo_1"
 echo "(504) $t_website_php_1"
 echo "(601) $t_game_synthesize_1"
-echo "(701) $t_tool_full_1"
+echo "(701) $t_tool_synthesize1_1"
 echo "----------------------------------"
 read input
  
@@ -221,7 +221,7 @@ case $input in
 		type=$t_game_synthesize_1
 		;;
 	701)
-		type=$t_tool_full_1
+		type=$t_tool_synthesize1_1
 		;;			
 esac
 
@@ -384,7 +384,7 @@ if [ $type = $t_game_synthesize_1 ];
 		replacestr="\"dataGameSynthesize1\"\:\["
 fi	
 
-if [ $type = $t_tool_full_1 ];
+if [ $type = $t_tool_synthesize1_1 ];
 	then
 		jsurl=$jsurl_tool
 		replacestr="\"dataToolSynthesize1\"\:\["
