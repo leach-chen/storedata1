@@ -1,5 +1,7 @@
 {
 	"dataGameSynthesize1":[{
+		"id":"game_3",
+		"time":"",
     "thumbUrl":"https://www.leachchen.com/storeh5game1/3/h5game1_3_t.jpg",
     "previewUrl":"https://www.leachchen.com/storeh5game1/3/h5game1_3_p/",
     "downloadUrl":"https://www.leachchen.com/storeh5game1/3/h5game1_3_d.zip",
@@ -14,6 +16,8 @@
     "sold":true
   },
 		{
+			"id":"game_1",
+			"time":"",
 			"thumbUrl": "https://www.leachchen.com/storeh5game1/1/h5game1_1_t.jpg",
 			"previewUrl": "https://www.leachchen.com/storeh5game1/1/h5game1_1_p_flappy/",
 			"downloadUrl": "https://www.leachchen.com/storeh5game1/1/h5game1_1_d_flappy.zip",
@@ -29,6 +33,8 @@
 			"sold": true
 		},
 		{
+			"id":"game_2",
+			"time":"",
 			"thumbUrl": "https://www.leachchen.com/storeh5game1/2/h5game1_2_t.jpg",
 			"previewUrl": "https://www.leachchen.com/storeh5game1/2/h5game1_2_p_fruit/",
 			"downloadUrl": "https://www.leachchen.com/storeh5game1/2/h5game1_2_d_fruit.zip",
