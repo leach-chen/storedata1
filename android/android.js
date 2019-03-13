@@ -31,7 +31,20 @@
 			 "sold":true
 		  }
 	],
-	"dataAndroidView1":[
+	"dataAndroidView1":[{
+    "thumbUrl":"https://www.leachchen.com/storeandroid1/5/android1_5_t.png",
+    "previewUrl":"https://www.leachchen.com/storeandroid1/5/android1_5_p.gif",
+    "downloadUrl":"https://codeload.github.com/Ajian-studio/GADownloading/zip/master",
+    "description":"一款绚丽的LoadingView，有多种效果",
+    "type":"android_view_1",
+    "author":"",
+    "authorurl":"https://github.com/Ajian-studio",
+    "gitauthor":"Ajian-studio",
+    "gitrepo":"GADownloading",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true
+  },
 		{
 			"thumbUrl":"https://www.leachchen.com/storeandroid1/3/android1_3_t.png",
 			"previewUrl":"https://www.leachchen.com/storeandroid1/3/android1_3_p.gif",
