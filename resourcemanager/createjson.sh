@@ -62,6 +62,7 @@ jsurl_tool="tool/tool.js"
 
 
 #字段
+id=""
 thumbUrl=""
 previewUrl=""
 downloadUrl=""
@@ -73,6 +74,7 @@ gitauthor=""
 gitrepo=""
 byauthor=""
 byauthorurl=""
+time=""
 
 hosturl=""
 
@@ -88,36 +90,43 @@ do
 			if [ ${array[0]} = $android1 ];
 				then
 					hosturl=$repo_url_android1
+					id="android_"${array[1]}
 			fi	
 
 			if [ ${array[0]} = $flutter1 ];
 				then
 					hosturl=$repo_url_flutter1
+					id="flutter_"${array[1]}
 			fi	
 			
 			if [ ${array[0]} = $h5game1 ];
 				then
 					hosturl=$repo_url_h5game1
+					id="game_"${array[1]}
 			fi	
 
 			if [ ${array[0]} = $ios1 ];
 				then
 					hosturl=$repo_url_ios1
+					id="ios_"${array[1]}
 			fi
 			
 			if [ ${array[0]} = $tool1 ];
 				then
 					hosturl=$repo_url_tool1
+					id="tool_"${array[1]}
 			fi
 			
 			if [ ${array[0]} = $vue1 ];
 				then
 					hosturl=$repo_url_vue1
+					id="vue_"${array[1]}
 			fi
 
 			if [ ${array[0]} = $website1 ];
 				then
 					hosturl=$repo_url_website1
+					id="website_"${array[1]}
 			fi					
 		elif [ $count -eq 2 ];	#如果是第二个数据
 		  then
@@ -390,8 +399,10 @@ if [ $type = $t_tool_synthesize1_1 ];
 		replacestr="\"dataToolSynthesize1\"\:\["
 fi	
 
+time=`date +%Y%m%d%H%M%S`
 
-json="$replacestr{\n    \"thumbUrl\":\"$thumbUrl\",\n    \"previewUrl\":\"$previewUrl\",\n    \"downloadUrl\":\"$downloadUrl\",\n    \"description\":\"$description\",\n    \"type\":\"$type\",\n    \"author\":\"$author\",\n    \"authorurl\":\"$authorurl\",\n    \"gitauthor\":\"$gitauthor\",\n    \"gitrepo\":\"$gitrepo\",\n    \"byauthor\":\"$byauthor\",\n    \"byauthorurl\":\"$byauthorurl\",\n    \"sold\":true\n  },"
+
+json="$replacestr{\n    \"id\":\"$id\",\n    \"thumbUrl\":\"$thumbUrl\",\n    \"previewUrl\":\"$previewUrl\",\n    \"downloadUrl\":\"$downloadUrl\",\n    \"description\":\"$description\",\n    \"type\":\"$type\",\n    \"author\":\"$author\",\n    \"authorurl\":\"$authorurl\",\n    \"gitauthor\":\"$gitauthor\",\n    \"gitrepo\":\"$gitrepo\",\n    \"byauthor\":\"$byauthor\",\n    \"byauthorurl\":\"$byauthorurl\",\n    \"sold\":true,\n    \"time\":\"$time\"\n  },"
 
 echo $json
 
