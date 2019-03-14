@@ -13,6 +13,7 @@
 		"gitrepo":"",
 		"byauthor":"",
 		"byauthorurl":"",
+		"tag": "website",
 		"sold":true
 	}]
 }

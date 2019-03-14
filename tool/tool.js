@@ -13,6 +13,7 @@
     "gitrepo":"",
     "byauthor":"",
     "byauthorurl":"",
+		"tag": "tool",
     "sold":true
   },{
 		"id":"tool_4",
@@ -28,6 +29,7 @@
     "gitrepo":"",
     "byauthor":"",
     "byauthorurl":"",
+		"tag": "tool",
     "sold":true
   },{
 		"id":"tool_3",
@@ -58,6 +60,7 @@
     "gitrepo":"",
     "byauthor":"",
     "byauthorurl":"",
+		"tag": "tool",
     "sold":true
   },
 		{
@@ -74,6 +77,7 @@
 		"gitrepo":"atom",
 		"byauthor":"",
 		"byauthorurl":"",
+		"tag": "tool",
 		"sold":true
 	}]
 }

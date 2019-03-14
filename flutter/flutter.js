@@ -13,6 +13,7 @@
 			"gitrepo":"flutter-go",
 			"byauthor":"",
 			"byauthorurl":"",
+			"tag": "flutter",
 			"sold":true
 
 

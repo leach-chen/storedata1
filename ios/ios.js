@@ -14,6 +14,7 @@
 		"gitrepo": "ESTMusicPlayer",
 		"byauthor": "",
 		"byauthorurl": "",
+		"tag": "ios",
 		"sold": true
 	}]
 }

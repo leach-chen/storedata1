@@ -14,6 +14,7 @@
 			"gitrepo": "MusicDNA",
 			"byauthor": "",
 			"byauthorurl": "",
+			"tag": "android",
 			"sold": true
 		}
 	],
@@ -32,6 +33,7 @@
 			 "gitrepo":"lottie-android",
 			 "byauthor":"",
 			 "byauthorurl":"",
+			 "tag": "android",
 			 "sold":true
 		  }
 	],
@@ -49,6 +51,7 @@
     "gitrepo":"GADownloading",
     "byauthor":"",
     "byauthorurl":"",
+  	"tag": "android",
     "sold":true
   },
 		{
@@ -65,6 +68,7 @@
 			"gitrepo":"BubbleSeekBar",
 			"byauthor":"",
 			"byauthorurl":"",
+			"tag": "android",
 			"sold":true
 		  }
 	],
@@ -83,6 +87,7 @@
     "gitrepo":"AndroidUtilCode",
     "byauthor":"",
     "byauthorurl":"",
+  	"tag": "android",
     "sold":true
   }],
 	"dataAndroidArchitecture1":[

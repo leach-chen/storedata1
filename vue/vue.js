@@ -13,6 +13,7 @@
     "gitrepo":"d2-admin",
     "byauthor":"FairyEver",
     "byauthorurl":"https://github.com/FairyEver",
+		"tag": "vue",
     "sold":true
   },{
 		"id":"vue_2",
@@ -28,6 +29,7 @@
     "gitrepo":"react-chat",
     "byauthor":"",
     "byauthorurl":"",
+		"tag": "vue",
     "sold":true
   },{
 		"id":"vue_1",
@@ -43,6 +45,7 @@
 		"gitrepo":"vue-element-admin",
 		"byauthor":"",
 		"byauthorurl":"",
+		"tag": "vue",
 		"sold":true
 	}]
 }

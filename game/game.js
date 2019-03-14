@@ -13,6 +13,7 @@
     "gitrepo":"",
     "byauthor":"",
     "byauthorurl":"",
+		"tag": "game",
     "sold":true
   },
 		{
@@ -30,6 +31,7 @@
 			"gitrepo": "",
 			"byauthor": "",
 			"byauthorurl": "",
+			"tag": "game",
 			"sold": true
 		},
 		{
@@ -47,6 +49,7 @@
 			"gitrepo": "",
 			"byauthor": "",
 			"byauthorurl": "",
+			"tag": "game",
 			"sold": true
 		}
 	]
