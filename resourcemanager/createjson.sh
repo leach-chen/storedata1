@@ -74,7 +74,16 @@ gitauthor=""
 gitrepo=""
 byauthor=""
 byauthorurl=""
+tag=""
 time=""
+
+tag_android="android"
+tag_ios="ios"
+tag_flutter="flutter"
+tag_game="game"
+tag_vue="vue"
+tag_tool="tool"
+tag_website="website"
 
 hosturl=""
 
@@ -91,42 +100,49 @@ do
 				then
 					hosturl=$repo_url_android1
 					id="android_"${array[1]}
+					tag=$tag_android
 			fi	
 
 			if [ ${array[0]} = $flutter1 ];
 				then
 					hosturl=$repo_url_flutter1
 					id="flutter_"${array[1]}
+					tag=$tag_flutter
 			fi	
 			
 			if [ ${array[0]} = $h5game1 ];
 				then
 					hosturl=$repo_url_h5game1
 					id="game_"${array[1]}
+					tag=$tag_game
 			fi	
 
 			if [ ${array[0]} = $ios1 ];
 				then
 					hosturl=$repo_url_ios1
 					id="ios_"${array[1]}
+					tag=$tag_ios
 			fi
 			
 			if [ ${array[0]} = $tool1 ];
 				then
 					hosturl=$repo_url_tool1
 					id="tool_"${array[1]}
+					tag=$tag_tool
 			fi
 			
 			if [ ${array[0]} = $vue1 ];
 				then
 					hosturl=$repo_url_vue1
 					id="vue_"${array[1]}
+					tag=$tag_vue
 			fi
 
 			if [ ${array[0]} = $website1 ];
 				then
 					hosturl=$repo_url_website1
 					id="website_"${array[1]}
+					tag=$tag_website
 			fi					
 		elif [ $count -eq 2 ];	#如果是第二个数据
 		  then
@@ -402,7 +418,7 @@ fi
 time=`date +%Y%m%d%H%M%S`
 
 
-json="$replacestr{\n    \"id\":\"$id\",\n    \"thumbUrl\":\"$thumbUrl\",\n    \"previewUrl\":\"$previewUrl\",\n    \"downloadUrl\":\"$downloadUrl\",\n    \"description\":\"$description\",\n    \"type\":\"$type\",\n    \"author\":\"$author\",\n    \"authorurl\":\"$authorurl\",\n    \"gitauthor\":\"$gitauthor\",\n    \"gitrepo\":\"$gitrepo\",\n    \"byauthor\":\"$byauthor\",\n    \"byauthorurl\":\"$byauthorurl\",\n    \"sold\":true,\n    \"time\":\"$time\"\n  },"
+json="$replacestr{\n    \"id\":\"$id\",\n    \"thumbUrl\":\"$thumbUrl\",\n    \"previewUrl\":\"$previewUrl\",\n    \"downloadUrl\":\"$downloadUrl\",\n    \"description\":\"$description\",\n    \"type\":\"$type\",\n    \"author\":\"$author\",\n    \"authorurl\":\"$authorurl\",\n    \"gitauthor\":\"$gitauthor\",\n    \"gitrepo\":\"$gitrepo\",\n    \"byauthor\":\"$byauthor\",\n    \"byauthorurl\":\"$byauthorurl\",\n    \"sold\":true,\n    \"tag\":\"$tag\",\n  \"time\":\"$time\"\n  },"
 
 echo $json
 
@@ -412,9 +428,10 @@ sed -i "s/${replacestr}/${json}/g" $jsurl
 
 
 
-cd resourcemanager
+cd algolia
 #json除了前缀其它和上面一致
-json="{\n    \"id\":\"$id\",\n    \"thumbUrl\":\"$thumbUrl\",\n    \"previewUrl\":\"$previewUrl\",\n    \"downloadUrl\":\"$downloadUrl\",\n    \"description\":\"$description\",\n    \"type\":\"$type\",\n    \"author\":\"$author\",\n    \"authorurl\":\"$authorurl\",\n    \"gitauthor\":\"$gitauthor\",\n    \"gitrepo\":\"$gitrepo\",\n    \"byauthor\":\"$byauthor\",\n    \"byauthorurl\":\"$byauthorurl\",\n    \"sold\":true,\n    \"time\":\"$time\"\n  },"
+json="{\n    \"id\":\"$id\",\n    \"thumbUrl\":\"$thumbUrl\",\n    \"previewUrl\":\"$previewUrl\",\n    \"downloadUrl\":\"$downloadUrl\",\n    \"description\":\"$description\",\n    \"type\":\"$type\",\n    \"author\":\"$author\",\n    \"authorurl\":\"$authorurl\",\n    \"gitauthor\":\"$gitauthor\",\n    \"gitrepo\":\"$gitrepo\",\n    \"byauthor\":\"$byauthor\",\n    \"byauthorurl\":\"$byauthorurl\",\n    \"sold\":true,\n    \"tag\":\"$tag\",\n  \"time\":\"$time\"\n  },"
 sed -i "s/\/\/replace/${json}\/\/replace/g" algolia.txt
+sed -i "s/\/\/replace/${json}\/\/replace/g" allalgolia.txt
 
 read -p "Press any key to continue." var
