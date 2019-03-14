@@ -431,7 +431,7 @@ sed -i "s/${replacestr}/${json}/g" $jsurl
 cd algolia
 #json除了前缀其它和上面一致
 json="{\n    \"id\":\"$id\",\n    \"thumbUrl\":\"$thumbUrl\",\n    \"previewUrl\":\"$previewUrl\",\n    \"downloadUrl\":\"$downloadUrl\",\n    \"description\":\"$description\",\n    \"type\":\"$type\",\n    \"author\":\"$author\",\n    \"authorurl\":\"$authorurl\",\n    \"gitauthor\":\"$gitauthor\",\n    \"gitrepo\":\"$gitrepo\",\n    \"byauthor\":\"$byauthor\",\n    \"byauthorurl\":\"$byauthorurl\",\n    \"sold\":true,\n    \"tag\":\"$tag\",\n  \"time\":\"$time\"\n  },"
-sed -i "s/\/\/replace/${json}\/\/replace/g" algolia.txt
-sed -i "s/\/\/replace/${json}\/\/replace/g" allalgolia.txt
+sed -i "s/\/\/replace/\/\/replace${json}/g" algolia.txt
+sed -i "s/\/\/replace/\/\/replace${json}/g" allalgolia.txt
 
 read -p "Press any key to continue." var
