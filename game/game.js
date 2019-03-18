@@ -60,5 +60,5 @@
 	"dataGameSmart1":[
 	],
 	"dataGameShoot1":[
-	],
+	]
 }
