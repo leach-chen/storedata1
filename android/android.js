@@ -123,6 +123,24 @@
     "sold":true
   }],
 	"dataAndroidArchitecture1":[
+	],
+	"dataAndroidComponent1":[{
+    "id":"android_8",
+    "thumbUrl":"https://www.leachchen.com/storeandroid1/8/android1_8_t.jpg",
+    "previewUrl":"https://www.leachchen.com/storeandroid1/8/android1_8_p.gif",
+    "downloadUrl":"https://codeload.github.com/scwang90/SmartRefreshLayout/zip/master",
+    "description":"下拉刷新、上拉加载、二级刷新、淘宝二楼、RefreshLayout、OverScroll，Android智能下拉刷新框架，支持越界回弹、越界拖动，具有极强的扩展性，集成了几十种炫酷的Header和 Footer",
+    "type":"android_component_1",
+    "author":"",
+    "authorurl":"https://github.com/scwang90",
+    "gitauthor":"scwang90",
+    "gitrepo":"SmartRefreshLayout",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"android|component",
+  "time":"20190318155851"
+  },
 	]
 
 

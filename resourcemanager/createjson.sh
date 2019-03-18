@@ -32,12 +32,13 @@ website1="website1"
 
 
 
-
+#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 #资源type类型，和homeweb里面定义的类型统一,新增类型需修改
 t_android_full_1="android_full_1"
 t_android_animation_1="android_animation_1"
 t_android_view_1="android_view_1"
 t_android_synthesize_1="android_synthesize_1"
+t_android_component_1="android_component_1"
 t_android_architecture_1="android_architecture_1"
 t_ios_full_1="ios_full_1"
 t_flutter_full_1="flutter_full_1"
@@ -93,7 +94,7 @@ do
 	count=0
 	for var in ${array[@]}	#遍历字符串数组
 	do
-		count=$(($count+1)) 
+		count=$(($count+1))
 		if [ $count -eq 1 ];
 		  then
 			if [ ${array[0]} = $android1 ];
@@ -101,21 +102,21 @@ do
 					hosturl=$repo_url_android1
 					id="android_"${array[1]}
 					tag=$tag_android
-			fi	
+			fi
 
 			if [ ${array[0]} = $flutter1 ];
 				then
 					hosturl=$repo_url_flutter1
 					id="flutter_"${array[1]}
 					tag=$tag_flutter
-			fi	
-			
+			fi
+
 			if [ ${array[0]} = $h5game1 ];
 				then
 					hosturl=$repo_url_h5game1
 					id="game_"${array[1]}
 					tag=$tag_game
-			fi	
+			fi
 
 			if [ ${array[0]} = $ios1 ];
 				then
@@ -123,14 +124,14 @@ do
 					id="ios_"${array[1]}
 					tag=$tag_ios
 			fi
-			
+
 			if [ ${array[0]} = $tool1 ];
 				then
 					hosturl=$repo_url_tool1
 					id="tool_"${array[1]}
 					tag=$tag_tool
 			fi
-			
+
 			if [ ${array[0]} = $vue1 ];
 				then
 					hosturl=$repo_url_vue1
@@ -143,7 +144,7 @@ do
 					hosturl=$repo_url_website1
 					id="website_"${array[1]}
 					tag=$tag_website
-			fi					
+			fi
 		elif [ $count -eq 2 ];	#如果是第二个数据
 		  then
 			temp="temp"
@@ -157,9 +158,9 @@ do
 					previewUrl=$hosturl"/"${array[1]}"/"$file
 			elif [ ${var:0:1} = "d" ];
 				then
-					downloadUrl=$hosturl"/"${array[1]}"/"$file		
+					downloadUrl=$hosturl"/"${array[1]}"/"$file
 			fi
-		fi	
+		fi
 	done
 done
 
@@ -185,6 +186,7 @@ echo "----------------------------------"
 read dec
 description=$dec
 
+#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 #新增类型需修改
 echo "----------------------------------"
 echo "请选择资源分类:"
@@ -192,7 +194,8 @@ echo "(101) $t_android_full_1"
 echo "(102) $t_android_animation_1"
 echo "(103) $t_android_view_1"
 echo "(104) $t_android_synthesize_1"
-echo "(105) $t_android_architecture_1"
+echo "(105) $t_android_component_1"
+echo "(106) $t_android_architecture_1"
 echo "(201) $t_ios_full_1"
 echo "(301) $t_flutter_full_1"
 echo "(401) $t_vue_full_1"
@@ -204,7 +207,7 @@ echo "(601) $t_game_synthesize_1"
 echo "(701) $t_tool_synthesize1_1"
 echo "----------------------------------"
 read input
- 
+
 case $input in
     101)
 		type=$t_android_full_1
@@ -219,8 +222,11 @@ case $input in
 		type=$t_android_synthesize_1
 		;;
 	105)
+		type=$t_android_component_1
+		;;
+	106)
 		type=$t_android_architecture_1
-		;;	
+		;;
 	201)
 		type=$t_ios_full_1
 		;;
@@ -232,22 +238,22 @@ case $input in
 		;;
 	501)
 		type=$t_website_css_1
-		;;	
+		;;
 	502)
 		type=$t_website_jekyll_1
-		;;	
+		;;
 	503)
 		type=$t_website_hexo_1
-		;;	
+		;;
 	504)
 		type=$t_website_php_1
-		;;	
+		;;
 	601)
 		type=$t_game_synthesize_1
 		;;
 	701)
 		type=$t_tool_synthesize1_1
-		;;			
+		;;
 esac
 
 
@@ -266,8 +272,8 @@ authorurl=$auturl
 echo "----------------------------------"
 echo "请输入Git作者名称(gitauthor):"
 echo "----------------------------------"
-read gitauturl
-gitauthor=$gitauturl
+read gitaut
+gitauthor=$gitaut
 
 echo "----------------------------------"
 echo "请输入Git仓库名称(gitrepo):"
@@ -301,8 +307,32 @@ if [ -z "$downloadUrl" ];
 	fi
 fi
 
+if [ -z "$thumbUrl" ];
+	then
+		echo "请输入缩略图url(thumbUrl):"
+		read thumb
+		thumbUrl=$thumb
+fi
 
 
+if [ -z "$authorurl" ];
+	then
+	authorurl="https://github.com/"$gitauthor
+	if [ -z "$gitauthor" ];
+		then
+			echo "请输入作者url(authorurl):"
+			read auturl
+			authorurl=$auturl
+	fi
+fi
+
+
+echo "请输入tag:"
+read ttag
+if [ ! -z "$ttag" ];
+	then
+		tag=$ttag
+fi
 
 
 
@@ -317,6 +347,8 @@ gitauthor=${gitauthor//\//\\/}
 gitrepo=${gitrepo//\//\\/}
 byauthor=${byauthor//\//\\/}
 byauthorurl=${byauthorurl//\//\\/}
+tag=${tag//\//\\/}
+time=${time//\//\\/}
 
 
 
@@ -324,7 +356,7 @@ byauthorurl=${byauthorurl//\//\\/}
 #https://www.cnblogs.com/kings-9/p/7738724.html
 
 
-
+#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 cd ..
 
 jsurl=""
@@ -334,38 +366,45 @@ if [ $type = $t_android_full_1 ];
 	then
 		jsurl=$jsurl_android
 		replacestr="\"dataAndroidFull1\":\["
-fi	
+fi
 
 if [ $type = $t_android_animation_1 ];
 	then
 		jsurl=$jsurl_android
 		replacestr="\"dataAndroidAnimation1\"\:\["
-fi	
+fi
 
 if [ $type = $t_android_view_1 ];
 	then
 		jsurl=$jsurl_android
 		replacestr="\"dataAndroidView1\"\:\["
-fi	
+fi
 
 if [ $type = $t_android_synthesize_1 ];
 	then
 		jsurl=$jsurl_android
 		replacestr="\"dataAndroidSynthesize1\"\:\["
-fi	
+fi
+
+if [ $type = $t_android_component_1 ];
+	then
+		jsurl=$jsurl_android
+		replacestr="\"dataAndroidComponent1\"\:\["
+fi
+
 
 if [ $type = $t_android_architecture_1 ];
 	then
 		jsurl=$jsurl_android
 		replacestr="\"dataAndroidArchitecture1\"\:\["
-fi	
+fi
 
 
 if [ $type = $t_ios_full_1 ];
 	then
 		jsurl=$jsurl_ios
 		replacestr="\"dataIosFull1\"\:\["
-fi	
+fi
 
 if [ $type = $t_flutter_full_1 ];
 	then
@@ -389,49 +428,71 @@ if [ $type = $t_website_jekyll_1 ];
 	then
 		jsurl=$jsurl_website
 		replacestr="\"dataWebsiteJekyll1\"\:\["
-fi	
+fi
 
 if [ $type = $t_website_hexo_1 ];
 	then
 		jsurl=$jsurl_website
 		replacestr="\"dataWebsiteHexo1\"\:\["
-fi	
+fi
 
 if [ $type = $t_website_php_1 ];
 	then
 		jsurl=$jsurl_website
 		replacestr="\"dataWebsitePhp1\"\:\["
-fi	
+fi
 
 if [ $type = $t_game_synthesize_1 ];
 	then
 		jsurl=$jsurl_game
 		replacestr="\"dataGameSynthesize1\"\:\["
-fi	
+fi
 
 if [ $type = $t_tool_synthesize1_1 ];
 	then
 		jsurl=$jsurl_tool
 		replacestr="\"dataToolSynthesize1\"\:\["
-fi	
+fi
 
 time=`date +%Y%m%d%H%M%S`
 
 
 json="$replacestr{\n    \"id\":\"$id\",\n    \"thumbUrl\":\"$thumbUrl\",\n    \"previewUrl\":\"$previewUrl\",\n    \"downloadUrl\":\"$downloadUrl\",\n    \"description\":\"$description\",\n    \"type\":\"$type\",\n    \"author\":\"$author\",\n    \"authorurl\":\"$authorurl\",\n    \"gitauthor\":\"$gitauthor\",\n    \"gitrepo\":\"$gitrepo\",\n    \"byauthor\":\"$byauthor\",\n    \"byauthorurl\":\"$byauthorurl\",\n    \"sold\":true,\n    \"tag\":\"$tag\",\n  \"time\":\"$time\"\n  },"
 
+#json除了前缀其它和上面一致
+searchjson="{\n    \"id\":\"$id\",\n    \"thumbUrl\":\"$thumbUrl\",\n    \"previewUrl\":\"$previewUrl\",\n    \"downloadUrl\":\"$downloadUrl\",\n    \"description\":\"$description\",\n    \"type\":\"$type\",\n    \"author\":\"$author\",\n    \"authorurl\":\"$authorurl\",\n    \"gitauthor\":\"$gitauthor\",\n    \"gitrepo\":\"$gitrepo\",\n    \"byauthor\":\"$byauthor\",\n    \"byauthorurl\":\"$byauthorurl\",\n    \"sold\":true,\n    \"tag\":\"$tag\",\n  \"time\":\"$time\"\n  },"
+
 echo $json
 
 echo $jsurl
 
-sed -i "s/${replacestr}/${json}/g" $jsurl
+echo $searchjson
 
 
 
-cd other/algolia
-#json除了前缀其它和上面一致
-json="{\n    \"id\":\"$id\",\n    \"thumbUrl\":\"$thumbUrl\",\n    \"previewUrl\":\"$previewUrl\",\n    \"downloadUrl\":\"$downloadUrl\",\n    \"description\":\"$description\",\n    \"type\":\"$type\",\n    \"author\":\"$author\",\n    \"authorurl\":\"$authorurl\",\n    \"gitauthor\":\"$gitauthor\",\n    \"gitrepo\":\"$gitrepo\",\n    \"byauthor\":\"$byauthor\",\n    \"byauthorurl\":\"$byauthorurl\",\n    \"sold\":true,\n    \"tag\":\"$tag\",\n  \"time\":\"$time\"\n  },"
-sed -i "s/\/\/replace/\/\/replace${json}/g" algolia.txt
-sed -i "s/\/\/replace/\/\/replace${json}/g" allalgolia.txt
+echo "----------------------------------"
+echo "是否插入数据:"
+echo "(101) 插入数据"
+echo "(102) 终止插入数据"
+echo "----------------------------------"
+read input
+
+case $input in
+    101)
+
+		sed -i "s/${replacestr}/${json}/g" $jsurl
+
+		cd other/algolia
+		sed -i "s/\/\/replace/\/\/replace${searchjson}/g" algolia.txt
+		sed -i "s/\/\/replace/\/\/replace${searchjson}/g" allalgolia.txt
+		;;
+	102)
+
+		;;
+esac
+
+
+
+
 
 read -p "Press any key to continue." var
