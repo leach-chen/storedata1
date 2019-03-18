@@ -40,15 +40,25 @@ t_android_view_1="android_view_1"
 t_android_synthesize_1="android_synthesize_1"
 t_android_component_1="android_component_1"
 t_android_architecture_1="android_architecture_1"
+
 t_ios_full_1="ios_full_1"
 t_ios_synthesize_1="ios_synthesize_1"
+
 t_flutter_full_1="flutter_full_1"
+
 t_vue_full_1="vue_full_1"
+
 t_website_css_1="website_css_1"
 t_website_jekyll_1="website_jekyll_1"
 t_website_hexo_1="website_hexo_1"
 t_website_php_1="website_php_1"
+
 t_game_synthesize_1="game_synthesize_1"
+t_game_shoot_1="game_shoot_1"
+t_game_risk_1="game_risk_1"
+t_game_smart_1="game_smart_1"
+t_game_chesscard_1="game_chesscard_1"
+
 t_tool_synthesize1_1="tool_synthesize1_1"
 
 #data js 文件路径,新增类型需修改
@@ -206,6 +216,10 @@ echo "(502) $t_website_jekyll_1"
 echo "(503) $t_website_hexo_1"
 echo "(504) $t_website_php_1"
 echo "(601) $t_game_synthesize_1"
+echo "(602) $t_game_smart_1"
+echo "(603) $t_game_chesscard_1"
+echo "(604) $t_game_shoot_1"
+echo "(605) $t_game_risk_1"
 echo "(701) $t_tool_synthesize1_1"
 echo "----------------------------------"
 read input
@@ -255,6 +269,18 @@ case $input in
 		;;
 	601)
 		type=$t_game_synthesize_1
+		;;
+	602)
+		type=$t_game_smart_1
+		;;
+	603)
+		type=$t_game_chesscard_1
+		;;
+	604)
+		type=$t_game_shoot_1
+		;;
+	605)
+		type=$t_game_risk_1
 		;;
 	701)
 		type=$t_tool_synthesize1_1
@@ -405,6 +431,8 @@ if [ $type = $t_android_architecture_1 ];
 fi
 
 
+
+
 if [ $type = $t_ios_full_1 ];
 	then
 		jsurl=$jsurl_ios
@@ -417,17 +445,23 @@ if [ $type = $t_ios_synthesize_1 ];
 		replacestr="\"dataIosSynthesize1\"\:\["
 fi
 
+
+
 if [ $type = $t_flutter_full_1 ];
 	then
 		jsurl=$jsurl_flutter
 		replacestr="\"dataFlutterFull1\"\:\["
 fi
 
+
+
 if [ $type = $t_vue_full_1 ];
 	then
 		jsurl=$jsurl_vue
 		replacestr="\"dataVueFull1\"\:\["
 fi
+
+
 
 if [ $type = $t_website_css_1 ];
 	then
@@ -453,11 +487,39 @@ if [ $type = $t_website_php_1 ];
 		replacestr="\"dataWebsitePhp1\"\:\["
 fi
 
+
+
 if [ $type = $t_game_synthesize_1 ];
 	then
 		jsurl=$jsurl_game
 		replacestr="\"dataGameSynthesize1\"\:\["
 fi
+
+if [ $type = $t_game_smart_1 ];
+	then
+		jsurl=$jsurl_game
+		replacestr="\"dataGameSmart1\"\:\["
+fi
+
+if [ $type = $t_game_shoot_1 ];
+	then
+		jsurl=$jsurl_game
+		replacestr="\"dataGameShoot1\"\:\["
+fi
+
+if [ $type = $t_game_chesscard_1 ];
+	then
+		jsurl=$jsurl_game
+		replacestr="\"dataGameChesscard1\"\:\["
+fi
+
+if [ $type = $t_game_risk_1 ];
+	then
+		jsurl=$jsurl_game
+		replacestr="\"dataGameRisk1\"\:\["
+fi
+
+
 
 if [ $type = $t_tool_synthesize1_1 ];
 	then

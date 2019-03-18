@@ -52,5 +52,13 @@
 			"tag": "game",
 			"sold": true
 		}
-	]
+	],
+	"dataGameChesscard1":[
+	],
+	"dataGameRisk1":[
+	],
+	"dataGameSmart1":[
+	],
+	"dataGameShoot1":[
+	],
 }
