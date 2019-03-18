@@ -16,5 +16,24 @@
 		"byauthorurl": "",
 		"tag": "ios",
 		"sold": true
-	}]
+	}],
+	"dataIosSynthesize1":[{
+    "id":"ios_2",
+    "thumbUrl":"https://www.leachchen.com/storeios1/2/ios1_2_t.png",
+    "previewUrl":"https://www.leachchen.com/storeios1/2/ios1_2_p.gif",
+    "downloadUrl":"https://codeload.github.com/didi/DoraemonKit/zip/master",
+    "description":"一款辅助开发的工具,能够监测卡顿，屏幕取色，对齐标尺等等功能",
+    "type":"ios_synthesize_1",
+    "author":"",
+    "authorurl":"https://github.com/didi",
+    "gitauthor":"didi",
+    "gitrepo":"DoraemonKit",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"ios",
+  "time":"20190318181108"
+  }
+
+	]
 }

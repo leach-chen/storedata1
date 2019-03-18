@@ -41,6 +41,7 @@ t_android_synthesize_1="android_synthesize_1"
 t_android_component_1="android_component_1"
 t_android_architecture_1="android_architecture_1"
 t_ios_full_1="ios_full_1"
+t_ios_synthesize_1="ios_synthesize_1"
 t_flutter_full_1="flutter_full_1"
 t_vue_full_1="vue_full_1"
 t_website_css_1="website_css_1"
@@ -197,6 +198,7 @@ echo "(104) $t_android_synthesize_1"
 echo "(105) $t_android_component_1"
 echo "(106) $t_android_architecture_1"
 echo "(201) $t_ios_full_1"
+echo "(202) $t_ios_synthesize_1"
 echo "(301) $t_flutter_full_1"
 echo "(401) $t_vue_full_1"
 echo "(501) $t_website_css_1"
@@ -230,6 +232,9 @@ case $input in
 	201)
 		type=$t_ios_full_1
 		;;
+	202)
+			type=$t_ios_synthesize_1
+			;;
 	301)
 		type=$t_flutter_full_1
 		;;
@@ -404,6 +409,12 @@ if [ $type = $t_ios_full_1 ];
 	then
 		jsurl=$jsurl_ios
 		replacestr="\"dataIosFull1\"\:\["
+fi
+
+if [ $type = $t_ios_synthesize_1 ];
+	then
+		jsurl=$jsurl_ios
+		replacestr="\"dataIosSynthesize1\"\:\["
 fi
 
 if [ $type = $t_flutter_full_1 ];
