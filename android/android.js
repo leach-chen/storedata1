@@ -110,7 +110,7 @@
     "thumbUrl":"https://www.leachchen.com/storeandroid1/9/android1_9_t.png",
     "previewUrl":"https://www.leachchen.com/storeandroid1/9/android1_9_p.gif",
     "downloadUrl":"https://codeload.github.com/didi/DoraemonKit/zip/master",
-    "description":"一款辅助开发的工具�",
+    "description":"一款辅助开发的工具",
     "type":"android_synthesize_1",
     "author":"",
     "authorurl":"https://github.com/didi",
