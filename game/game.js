@@ -53,7 +53,23 @@
 			"sold": true
 		}
 	],
-	"dataGameChesscard1":[
+	"dataGameChesscard1":[{
+    "id":"",
+    "thumbUrl":"/4/h5game1_4_t.jpg",
+    "previewUrl":"/4/h5game1_4_p/",
+    "downloadUrl":"/4/h5game1_4_d.rar",
+    "description":"五子棋游戏，可设置对战难度",
+    "type":"game_chesscard_1",
+    "author":"html5tricks",
+    "authorurl":"https://www.html5tricks.com",
+    "gitauthor":"",
+    "gitrepo":"",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"game|棋牌",
+  "time":"20190319102302"
+  }
 	],
 	"dataGameRisk1":[
 	],
