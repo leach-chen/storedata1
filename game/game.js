@@ -54,6 +54,22 @@
 		}
 	],
 	"dataGameChesscard1":[{
+    "id":"game_5",
+    "thumbUrl":"https://www.leachchen.com/storeh5game1/5/h5game1_5_t.jpg",
+    "previewUrl":"https://www.leachchen.com/storeh5game1/5/h5game1_5_p/",
+    "downloadUrl":"https://www.leachchen.com/storeh5game1/5/h5game1_5_d.rar",
+    "description":"象棋对战游戏，可设置难度",
+    "type":"game_chesscard_1",
+    "author":"html5tricks",
+    "authorurl":"https://www.html5tricks.com",
+    "gitauthor":"",
+    "gitrepo":"",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"game|棋牌",
+  "time":"20190319103534"
+  },{
     "id":"",
     "thumbUrl":"/4/h5game1_4_t.jpg",
     "previewUrl":"/4/h5game1_4_p/",
