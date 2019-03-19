@@ -110,7 +110,7 @@
     "thumbUrl":"https://www.leachchen.com/storeandroid1/9/android1_9_t.png",
     "previewUrl":"https://www.leachchen.com/storeandroid1/9/android1_9_p.gif",
     "downloadUrl":"https://codeload.github.com/didi/DoraemonKit/zip/master",
-    "description":"一款辅助开发的工具,能够监测卡顿，屏幕取色，对齐标尺等等功能",
+    "description":"一款辅助开发的工具,能够监测卡顿，CUP性能，沙盒目录查看等功能，添加依赖后APP里便会有入口进入各项功能选择界面。APP记得打开悬浮窗权限",
     "type":"android_synthesize_1",
     "author":"",
     "authorurl":"https://github.com/didi",
