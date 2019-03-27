@@ -54,6 +54,22 @@
 		  }
 	],
 	"dataAndroidView1":[{
+    "id":"android_10",
+    "thumbUrl":"https://www.leachchen.com/storeandroid1/10/android1_10_t.png",
+    "previewUrl":"https://www.leachchen.com/storeandroid1/10/android1_10_p.gif",
+    "downloadUrl":"https://www.leachchen.com/storeandroid1/10/android1_10_d.zip",
+    "description":"kotlin语言写的android flappybird游戏，整个视图是一个自定义view。",
+    "type":"android_view_1",
+    "author":"apkbus",
+    "authorurl":"http://www.apkbus.com",
+    "gitauthor":"",
+    "gitrepo":"",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"android|自定义view|game",
+  "time":"20190328000553"
+  },{
     "id":"android_7",
     "thumbUrl":"https://www.leachchen.com/storeandroid1/7/android1_7_t.png",
     "previewUrl":"https://www.leachchen.com/storeandroid1/7/android1_7_p.gif",
