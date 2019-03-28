@@ -89,7 +89,23 @@
 	],
 	"dataGameRisk1":[
 	],
-	"dataGameSmart1":[
+	"dataGameSmart1":[{
+    "id":"game_7",
+    "thumbUrl":"https://www.leachchen.com/storeh5game1/7/h5game1_7_t.jpg",
+    "previewUrl":"https://www.leachchen.com/storeh5game1/7/h5game1_7_p/",
+    "downloadUrl":"https://codeload.github.com/gd4Ark/linkup/zip/master",
+    "description":"连连看游戏",
+    "type":"game_smart_1",
+    "author":"",
+    "authorurl":"https://github.com/gd4Ark",
+    "gitauthor":"gd4Ark",
+    "gitrepo":"linkup",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"game",
+  "time":"20190328165747"
+  },
 	],
 	"dataGameShoot1":[{
     "id":"game_6",
