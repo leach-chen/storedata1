@@ -105,7 +105,7 @@
     "sold":true,
     "tag":"game",
   "time":"20190328165747"
-  },
+  }
 	],
 	"dataGameShoot1":[{
     "id":"game_6",
