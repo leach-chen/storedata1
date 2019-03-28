@@ -10,6 +10,7 @@ repo_ios1="storeios1"
 repo_tool1="storetool1"
 repo_vue1="storevue1"
 repo_website1="storewebsite1"
+repo_reactnative1="reactnative1"
 
 #仓库url
 repo_url_android1=$host$repo_android1
@@ -19,6 +20,7 @@ repo_url_ios1=$host$repo_ios1
 repo_url_tool1=$host$repo_tool1
 repo_url_vue1=$host$repo_vue1
 repo_url_website1=$host$repo_website1
+repo_url_reactnative1=$host$repo_reactnative1
 
 #资源前缀，区分资源类型，和资源名称前缀统一
 android1="android1"
@@ -28,6 +30,7 @@ ios1="ios1"
 tool1="tool1"
 vue1="vue1"
 website1="website1"
+reactnative1="reactnative"
 
 
 
@@ -48,6 +51,9 @@ t_flutter_full_1="flutter_full_1"
 
 t_vue_full_1="vue_full_1"
 
+t_reactnative_full_1="reactnative_full_1"
+t_reactnative_synthesize_1="reactnative_synthesize_1"
+
 t_website_css_1="website_css_1"
 t_website_jekyll_1="website_jekyll_1"
 t_website_hexo_1="website_hexo_1"
@@ -59,7 +65,7 @@ t_game_risk_1="game_risk_1"
 t_game_smart_1="game_smart_1"
 t_game_chesscard_1="game_chesscard_1"
 
-t_tool_synthesize1_1="tool_synthesize1_1"
+t_tool_synthesize_1="tool_synthesize_1"
 
 #data js 文件路径,新增类型需修改
 jsurl_android="android/android.js"
@@ -69,7 +75,7 @@ jsurl_website="website/website.js"
 jsurl_game="game/game.js"
 jsurl_vue="vue/vue.js"
 jsurl_tool="tool/tool.js"
-
+jsurl_reactnative="reactnative/reactnative.js"
 
 
 
@@ -96,6 +102,7 @@ tag_game="game"
 tag_vue="vue"
 tag_tool="tool"
 tag_website="website"
+tag_reactnative="reactnative"
 
 hosturl=""
 
@@ -120,6 +127,13 @@ do
 					hosturl=$repo_url_flutter1
 					id="flutter_"${array[1]}
 					tag=$tag_flutter
+			fi
+
+			if [ ${array[0]} = $reactnative1 ];
+				then
+					hosturl=$repo_url_reactnative1
+					id="reactnative_"${array[1]}
+					tag=$tag_reactnative
 			fi
 
 			if [ ${array[0]} = $h5game1 ];
@@ -220,7 +234,9 @@ echo "(602) $t_game_smart_1"
 echo "(603) $t_game_chesscard_1"
 echo "(604) $t_game_shoot_1"
 echo "(605) $t_game_risk_1"
-echo "(701) $t_tool_synthesize1_1"
+echo "(701) $t_tool_synthesize_1"
+echo "(801) $t_reactnative_full_1"
+echo "(802) $t_reactnative_synthesize_1"
 echo "----------------------------------"
 read input
 
@@ -283,8 +299,14 @@ case $input in
 		type=$t_game_risk_1
 		;;
 	701)
-		type=$t_tool_synthesize1_1
+		type=$t_tool_synthesize_1
 		;;
+	801)
+		type=$t_reactnative_full_1
+		;;
+	802)
+		type=$t_reactnative_synthesize_1
+			;;
 esac
 
 
@@ -521,10 +543,23 @@ fi
 
 
 
-if [ $type = $t_tool_synthesize1_1 ];
+if [ $type = $t_tool_synthesize_1 ];
 	then
 		jsurl=$jsurl_tool
 		replacestr="\"dataToolSynthesize1\"\:\["
+fi
+
+if [ $type = $t_reactnative_full_1 ];
+	then
+		jsurl=$jsurl_reactnative
+		replacestr="\"dataReactnativeFull1\"\:\["
+fi
+
+
+if [ $type = $t_reactnative_synthesize_1 ];
+	then
+		jsurl=$jsurl_reactnative
+		replacestr="\"dataReactnativeSynthesize1\"\:\["
 fi
 
 time=`date +%Y%m%d%H%M%S`
