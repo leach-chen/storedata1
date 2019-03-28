@@ -1,5 +1,21 @@
 ﻿[
   //replace{
+    "id":"game_6",
+    "thumbUrl":"https://www.leachchen.com/storeh5game1/6/h5game1_6_t.jpg",
+    "previewUrl":"https://www.leachchen.com/storeh5game1/6/h5game1_6_p/",
+    "downloadUrl":"https://codeload.github.com/gd4Ark/star-battle/zip/master",
+    "description":"星际大战,使用原生JavaScript ES6 + Canvas 开发的一个类似雷电战机的 HTML5 游戏",
+    "type":"game_shoot_1",
+    "author":"",
+    "authorurl":"https://github.com/gd4Ark",
+    "gitauthor":"gd4Ark",
+    "gitrepo":"star-battle",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"game",
+  "time":"20190328164943"
+  },{
     "id":"android_10",
     "thumbUrl":"https://www.leachchen.com/storeandroid1/10/android1_10_t.png",
     "previewUrl":"https://www.leachchen.com/storeandroid1/10/android1_10_p.gif",
