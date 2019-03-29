@@ -1,5 +1,21 @@
 {
 	"dataReactnativeFull1":[{
+    "id":"",
+    "thumbUrl":"/7/reactnative_7_t.png",
+    "previewUrl":"/7/reactnative_7_p.png",
+    "downloadUrl":"https://codeload.github.com/wwayne/react-native-nba-app/zip/master",
+    "description":"这个项目主要进行查看NBA相关数据,界面做的非常Nice，项目整体架构也非常不错,关键还有图表界面，同时适配Android和iOS双平台",
+    "type":"reactnative_full_1",
+    "author":"",
+    "authorurl":"https://github.com/wwayne",
+    "gitauthor":"wwayne",
+    "gitrepo":"react-native-nba-app",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"reactnative",
+  "time":"20190329171734"
+  },{
     "id":"reactnative_5",
     "thumbUrl":"https://www.leachchen.com/storereactnative1/6/reactnative1_6_t.png",
     "previewUrl":"https://www.leachchen.com/storereactnative1/6/reactnative1_6_p.jpg",
