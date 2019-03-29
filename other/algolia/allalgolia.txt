@@ -1,6 +1,38 @@
 [
 
 	//replace{
+    "id":"reactnative_4",
+    "thumbUrl":"https://www.leachchen.com/storereactnative1/4/reactnative1_4_t.png",
+    "previewUrl":"https://www.leachchen.com/storereactnative1/4/reactnative1_4_p.gif",
+    "downloadUrl":"https://codeload.github.com/BelinChung/react-native-hiapp/zip/master",
+    "description":"HiApp written in react-native",
+    "type":"reactnative_full_1",
+    "author":"",
+    "authorurl":"https://github.com/BelinChung",
+    "gitauthor":"BelinChung",
+    "gitrepo":"react-native-hiapp",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"reactnative",
+  "time":"20190329162926"
+  },{
+    "id":"reactnative_3",
+    "thumbUrl":"https://www.leachchen.com/storereactnative1/3/reactnative1_3_t.png",
+    "previewUrl":"https://www.leachchen.com/storereactnative1/3/reactnative1_3_p.jpg",
+    "downloadUrl":"https://codeload.github.com/togayther/react-native-cnblogs/zip/master",
+    "description":"基于react-native实现的博客园移动客户端，兼容android和ios",
+    "type":"reactnative_full_1",
+    "author":"",
+    "authorurl":"https://github.com/togayther",
+    "gitauthor":"togayther",
+    "gitrepo":"react-native-cnblogs",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"reactnative",
+  "time":"20190329162304"
+  },{
     "id":"reactnative_2",
     "thumbUrl":"https://www.leachchen.com/storereactnative1/2/reactnative1_2_t.jpg",
     "previewUrl":"https://www.leachchen.com/storereactnative1/2/reactnative1_2_p.jpg",
