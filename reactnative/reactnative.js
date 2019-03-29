@@ -4,7 +4,7 @@
     "thumbUrl":"https://www.leachchen.com/storereactnative1/9/reactnative1_9_t.png",
     "previewUrl":"https://www.leachchen.com/storereactnative1/9/reactnative1_9_p.png",
     "downloadUrl":"https://codeload.github.com/stage88/react-weather/zip/master",
-    "description":"一个使用React Native和Realm构建的简单天气应用程序",
+    "description":"该为国外一个天气预报客户端,界面效果简约优美，作者借鉴F8项目同时客户端数据来自真实国外的天气预报API",
     "type":"reactnative_full_1",
     "author":"",
     "authorurl":"https://github.com/stage88",
