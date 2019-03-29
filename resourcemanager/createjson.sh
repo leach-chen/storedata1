@@ -10,7 +10,7 @@ repo_ios1="storeios1"
 repo_tool1="storetool1"
 repo_vue1="storevue1"
 repo_website1="storewebsite1"
-repo_reactnative1="reactnative1"
+repo_reactnative1="storereactnative1"
 
 #仓库url
 repo_url_android1=$host$repo_android1
