@@ -1,5 +1,21 @@
 ﻿[
   //replace{
+    "id":"reactnative_10",
+    "thumbUrl":"https://www.leachchen.com/storereactnative1/10/reactnative1_10_t.png",
+    "previewUrl":"https://www.leachchen.com/storereactnative1/10/reactnative1_10_p.png",
+    "downloadUrl":"https://codeload.github.com/attentiveness/reading/zip/master",
+    "description":"来自饿了么RN大神开源的reading项目,已经完成Android和iOS双适配",
+    "type":"reactnative_full_1",
+    "author":"",
+    "authorurl":"https://github.com/attentiveness",
+    "gitauthor":"attentiveness",
+    "gitrepo":"reading",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"reactnative",
+  "time":"20190329173736"
+  },{
     "id":"reactnative_9",
     "thumbUrl":"https://www.leachchen.com/storereactnative1/9/reactnative1_9_t.png",
     "previewUrl":"https://www.leachchen.com/storereactnative1/9/reactnative1_9_p.png",
