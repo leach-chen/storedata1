@@ -1,5 +1,21 @@
 {
 	"dataReactnativeFull1":[{
+    "id":"reactnative_11",
+    "thumbUrl":"https://www.leachchen.com/storereactnative1/11/reactnative1_11_t.png",
+    "previewUrl":"https://www.leachchen.com/storereactnative1/11/reactnative1_11_p.png",
+    "downloadUrl":"https://codeload.github.com/fbsamples/f8app/zip/master",
+    "description":"React Native最佳学习模版- F8 App开源了,界面和体验是相当的完美,这个是Facebook官方开发的",
+    "type":"reactnative_full_1",
+    "author":"",
+    "authorurl":"https://github.com/fbsamples",
+    "gitauthor":"fbsamples",
+    "gitrepo":"f8app",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"reactnative",
+  "time":"20190329174120"
+  },{
     "id":"reactnative_10",
     "thumbUrl":"https://www.leachchen.com/storereactnative1/10/reactnative1_10_t.png",
     "previewUrl":"https://www.leachchen.com/storereactnative1/10/reactnative1_10_p.png",
