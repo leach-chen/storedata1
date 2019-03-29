@@ -1,8 +1,8 @@
 {
 	"dataReactnativeFull1":[{
     "id":"reactnative_7",
-    "thumbUrl":"https://www.leachchen.com/storereactnative1/7/reactnative_7_t.png",
-    "previewUrl":"https://www.leachchen.com/storereactnative1/7/reactnative_7_p.png",
+    "thumbUrl":"https://www.leachchen.com/storereactnative1/7/reactnative1_7_t.png",
+    "previewUrl":"https://www.leachchen.com/storereactnative1/7/reactnative1_7_p.png",
     "downloadUrl":"https://codeload.github.com/wwayne/react-native-nba-app/zip/master",
     "description":"这个项目主要进行查看NBA相关数据,界面做的非常Nice，项目整体架构也非常不错,关键还有图表界面，同时适配Android和iOS双平台",
     "type":"reactnative_full_1",
