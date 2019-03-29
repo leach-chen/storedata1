@@ -15,6 +15,6 @@
     "sold":true,
     "tag":"reactnative",
   "time":"20190329144904"
-  },],
+  }],
 	"dataReactnativeSynthesize1":[]
 }
