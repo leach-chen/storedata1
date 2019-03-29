@@ -1,5 +1,21 @@
 {
 	"dataReactnativeFull1":[{
+    "id":"reactnative_9",
+    "thumbUrl":"https://www.leachchen.com/storereactnative1/9/reactnative1_9_t.png",
+    "previewUrl":"https://www.leachchen.com/storereactnative1/9/reactnative1_9_p.png",
+    "downloadUrl":"https://codeload.github.com/stage88/react-weather/zip/master",
+    "description":"一个使用React Native和Realm构建的简单天气应用程序",
+    "type":"reactnative_full_1",
+    "author":"",
+    "authorurl":"https://github.com/stage88",
+    "gitauthor":"stage88",
+    "gitrepo":"react-weather",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"reactnative",
+  "time":"20190329173334"
+  },{
     "id":"reactnative_8",
     "thumbUrl":"https://www.leachchen.com/storereactnative1/8/reactnative1_8_t.jpg",
     "previewUrl":"https://www.leachchen.com/storereactnative1/8/reactnative1_8_p.jpg",
