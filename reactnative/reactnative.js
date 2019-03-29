@@ -1,4 +1,20 @@
 {
-	"dataReactnativeFull1":[],
+	"dataReactnativeFull1":[{
+    "id":"reactnative_1",
+    "thumbUrl":"https://www.leachchen.com/reactnative1/1/reactnative1_1_t.png",
+    "previewUrl":"https://www.leachchen.com/reactnative1/1/reactnative1_1_p.gif",
+    "downloadUrl":"https://codeload.github.com/iwgang/GankCamp-React-Native/zip/master",
+    "description":"这是一款用react-native实现的Gank.io(干货集中营)客户端，支持Android及iOS，并针对不同平台的设计规范，界面也有一些差异化.",
+    "type":"reactnative_full_1",
+    "author":"",
+    "authorurl":"https://github.com/iwgang",
+    "gitauthor":"iwgang",
+    "gitrepo":"GankCamp-React-Native",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"reactnative",
+  "time":"20190329144904"
+  },],
 	"dataReactnativeSynthesize1":[]
 }

@@ -30,7 +30,7 @@ ios1="ios1"
 tool1="tool1"
 vue1="vue1"
 website1="website1"
-reactnative1="reactnative"
+reactnative1="reactnative1"
 
 
 
@@ -66,8 +66,9 @@ t_game_smart_1="game_smart_1"
 t_game_chesscard_1="game_chesscard_1"
 
 t_tool_synthesize_1="tool_synthesize_1"
+t_tool_imgoperate_1="tool_imgoperate_1"
 
-#data js 文件路径,新增类型需修改
+#data js 文件路径
 jsurl_android="android/android.js"
 jsurl_ios="ios/ios.js"
 jsurl_flutter="flutter/flutter.js"
@@ -235,6 +236,7 @@ echo "(603) $t_game_chesscard_1"
 echo "(604) $t_game_shoot_1"
 echo "(605) $t_game_risk_1"
 echo "(701) $t_tool_synthesize_1"
+echo "(702) $t_tool_imgoperate_1"
 echo "(801) $t_reactnative_full_1"
 echo "(802) $t_reactnative_synthesize_1"
 echo "----------------------------------"
@@ -300,6 +302,9 @@ case $input in
 		;;
 	701)
 		type=$t_tool_synthesize_1
+		;;
+	702)
+		type=$t_tool_imgoperate_1
 		;;
 	801)
 		type=$t_reactnative_full_1
@@ -548,6 +553,13 @@ if [ $type = $t_tool_synthesize_1 ];
 		jsurl=$jsurl_tool
 		replacestr="\"dataToolSynthesize1\"\:\["
 fi
+
+if [ $type = $t_tool_imgoperate_1 ];
+	then
+		jsurl=$jsurl_tool
+		replacestr="\"dataToolImgoperate1\"\:\["
+fi
+
 
 if [ $type = $t_reactnative_full_1 ];
 	then

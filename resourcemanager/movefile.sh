@@ -9,6 +9,7 @@ repo_ios1="storeios1"
 repo_tool1="storetool1"
 repo_vue1="storevue1"
 repo_website1="storewebsite1"
+repo_reactnative1="storereactnative1"
 
 android1="android1"
 flutter1="flutter1"
@@ -17,7 +18,7 @@ ios1="ios1"
 tool1="tool1"
 vue1="vue1"
 website1="website1"
-
+reactnative1="reactnative1"
 
 
 firstpath=""
@@ -51,7 +52,10 @@ do
 					firstpath=$repo_vue1
 			elif [ ${array[0]} = $website1 ];
 				then
-					firstpath=$repo_website1		
+					firstpath=$repo_website1	
+			elif [ ${array[0]} = $reactnative1 ];
+				then
+					firstpath=$repo_reactnative1				
 			fi
 		elif [ $count -eq 2 ];	#如果是第二个数据
 		  then
