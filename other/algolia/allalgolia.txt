@@ -1,6 +1,38 @@
 [
 
 	//replace{
+    "id":"reactnative_5",
+    "thumbUrl":"https://www.leachchen.com/storereactnative1/5/reactnative1_5_t.png",
+    "previewUrl":"https://www.leachchen.com/storereactnative1/5/reactnative1_5_p.gif",
+    "downloadUrl":"https://codeload.github.com/iSimar/HackerNews-React-Native/zip/master",
+    "description":"Hacker News iOS and Android App - Made with React Native.",
+    "type":"reactnative_full_1",
+    "author":"",
+    "authorurl":"https://github.com/iSimar",
+    "gitauthor":"iSimar",
+    "gitrepo":"HackerNews-React-Native",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"reactnative",
+  "time":"20190329170440"
+  },{
+    "id":"reactnative_5",
+    "thumbUrl":"https://www.leachchen.com/storereactnative1/5/reactnative1_5_t.png",
+    "previewUrl":"https://www.leachchen.com/storereactnative1/5/reactnative1_5_p.png",
+    "downloadUrl":"https://codeload.github.com/ljunb/react-native-iShiWuPai/zip/master",
+    "description":"iShiWuPai是基于React Native实现的展示型美食类APP。该分支针对原生新版食物派开发，数据来源于【薄荷】，主要针对MobX练习，不做商业用途。目前已适配iOS和Android两端，适合刚入门React Native的朋友学习",
+    "type":"reactnative_full_1",
+    "author":"",
+    "authorurl":"https://github.com/ljunb",
+    "gitauthor":"ljunb",
+    "gitrepo":"react-native-iShiWuPai",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"reactnative",
+  "time":"20190329165958"
+  },{
     "id":"reactnative_4",
     "thumbUrl":"https://www.leachchen.com/storereactnative1/4/reactnative1_4_t.png",
     "previewUrl":"https://www.leachchen.com/storereactnative1/4/reactnative1_4_p.gif",
