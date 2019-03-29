@@ -1,5 +1,21 @@
 ﻿[
   //replace{
+    "id":"reactnative_8",
+    "thumbUrl":"https://www.leachchen.com/storereactnative1/8/reactnative1_8_t.jpg",
+    "previewUrl":"https://www.leachchen.com/storereactnative1/8/reactnative1_8_p.jpg",
+    "downloadUrl":"https://codeload.github.com/xiekw2010/react-native-gitfeed/zip/master",
+    "description":"该项目来自阿里开发人员,又一Github客户端",
+    "type":"reactnative_full_1",
+    "author":"",
+    "authorurl":"https://github.com/xiekw2010",
+    "gitauthor":"xiekw2010",
+    "gitrepo":"react-native-gitfeed",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"reactnative",
+  "time":"20190329173031"
+  },{
     "id":"reactnative_7",
     "thumbUrl":"https://www.leachchen.com/storereactnative1/7/reactnative1_7_t.png",
     "previewUrl":"https://www.leachchen.com/storereactnative1/7/reactnative1_7_p.png",
