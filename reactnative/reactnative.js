@@ -1,5 +1,21 @@
 {
 	"dataReactnativeFull1":[{
+    "id":"reactnative_2",
+    "thumbUrl":"https://www.leachchen.com/storereactnative1/2/reactnative1_2_t.jpg",
+    "previewUrl":"https://www.leachchen.com/storereactnative1/2/reactnative1_2_p.jpg",
+    "downloadUrl":"https://codeload.github.com/zhongjie-chen/rn_rank/zip/master",
+    "description":"干货分享，支持Android、IOS的APP",
+    "type":"reactnative_full_1",
+    "author":"",
+    "authorurl":"https://github.com/zhongjie-chen",
+    "gitauthor":"zhongjie-chen",
+    "gitrepo":"rn_rank",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"reactnative",
+  "time":"20190329161902"
+  },{
     "id":"reactnative_1",
     "thumbUrl":"https://www.leachchen.com/storereactnative1/1/reactnative1_1_t.png",
     "previewUrl":"https://www.leachchen.com/storereactnative1/1/reactnative1_1_p.gif",
