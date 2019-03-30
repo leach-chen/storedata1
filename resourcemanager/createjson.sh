@@ -275,7 +275,7 @@ case $input in
 	401)
 		type=$t_vue_full_1
 		;;
-	401)
+	402)
 		type=$t_vue_synthesize_1
 			;;
 	501)

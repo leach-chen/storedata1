@@ -1,6 +1,22 @@
 [
 
 	//replace{
+    "id":"vue_4",
+    "thumbUrl":"https://www.leachchen.com/storevue1/4/vue1_4_t.jpg",
+    "previewUrl":"https://www.jianshu.com/p/c9a22c30cb2e",
+    "downloadUrl":"",
+    "description":"Vue PC和移动端组件库合集",
+    "type":"vue_synthesize_1",
+    "author":"grain先森",
+    "authorurl":"https://www.jianshu.com/u/d3ad6687e61f",
+    "gitauthor":"",
+    "gitrepo":"",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"vue",
+  "time":"20190331000113"
+  },{
     "id":"android_12",
     "thumbUrl":"https://www.leachchen.com/storeandroid1/12/android1_12_t.png",
     "previewUrl":"https://www.leachchen.com/storeandroid1/12/android1_12_p.gif",
