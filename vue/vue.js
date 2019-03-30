@@ -47,5 +47,6 @@
 		"byauthorurl":"",
 		"tag": "vue",
 		"sold":true
-	}]
+	}],
+	"dataVueSynthesize1":[]
 }

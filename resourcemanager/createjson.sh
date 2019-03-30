@@ -50,6 +50,7 @@ t_ios_synthesize_1="ios_synthesize_1"
 t_flutter_full_1="flutter_full_1"
 
 t_vue_full_1="vue_full_1"
+t_vue_synthesize_1="vue_synthesize_1"
 
 t_reactnative_full_1="reactnative_full_1"
 t_reactnative_synthesize_1="reactnative_synthesize_1"
@@ -226,6 +227,7 @@ echo "(201) $t_ios_full_1"
 echo "(202) $t_ios_synthesize_1"
 echo "(301) $t_flutter_full_1"
 echo "(401) $t_vue_full_1"
+echo "(402) $t_vue_synthesize_1"
 echo "(501) $t_website_css_1"
 echo "(502) $t_website_jekyll_1"
 echo "(503) $t_website_hexo_1"
@@ -273,6 +275,9 @@ case $input in
 	401)
 		type=$t_vue_full_1
 		;;
+	401)
+		type=$t_vue_synthesize_1
+			;;
 	501)
 		type=$t_website_css_1
 		;;
@@ -488,6 +493,11 @@ if [ $type = $t_vue_full_1 ];
 		replacestr="\"dataVueFull1\"\:\["
 fi
 
+if [ $type = $t_vue_synthesize_1 ];
+	then
+		jsurl=$jsurl_vue
+		replacestr="\"dataVueSynthesize1\"\:\["
+fi
 
 
 if [ $type = $t_website_css_1 ];
