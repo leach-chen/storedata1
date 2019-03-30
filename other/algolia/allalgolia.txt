@@ -1,6 +1,22 @@
 [
 
 	//replace{
+    "id":"android_12",
+    "thumbUrl":"https://www.leachchen.com/storeandroid1/12/android1_12_t.png",
+    "previewUrl":"https://www.leachchen.com/storeandroid1/12/android1_12_p.gif",
+    "downloadUrl":"https://codeload.github.com/frakbot/CreditsRoll/zip/master",
+    "description":"实现星球大战字幕效果",
+    "type":"android_view_1",
+    "author":"",
+    "authorurl":"https://github.com/frakbot",
+    "gitauthor":"frakbot",
+    "gitrepo":"CreditsRoll",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"android",
+  "time":"20190330232400"
+  },{
     "id":"android_11",
     "thumbUrl":"https://www.leachchen.com/storeandroid1/11/android1_11_t.jpg",
     "previewUrl":"https://www.leachchen.com/storeandroid1/11/android1_11_p.gif",
