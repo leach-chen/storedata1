@@ -54,6 +54,22 @@
 		  }
 	],
 	"dataAndroidView1":[{
+    "id":"android_11",
+    "thumbUrl":"https://www.leachchen.com/storeandroid1/11/android1_11_t.jpg",
+    "previewUrl":"https://www.leachchen.com/storeandroid1/11/android1_11_p.gif",
+    "downloadUrl":"https://codeload.github.com/zcweng/SwitchButton/zip/master",
+    "description":"自定义view实现的SwitchButton多种样式",
+    "type":"android_view_1",
+    "author":"",
+    "authorurl":"https://github.com/zcweng",
+    "gitauthor":"zcweng",
+    "gitrepo":"SwitchButton",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"android",
+  "time":"20190330231943"
+  },{
     "id":"android_10",
     "thumbUrl":"https://www.leachchen.com/storeandroid1/10/android1_10_t.png",
     "previewUrl":"https://www.leachchen.com/storeandroid1/10/android1_10_p.gif",
