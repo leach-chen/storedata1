@@ -56,6 +56,7 @@ t_reactnative_full_1="reactnative_full_1"
 t_reactnative_synthesize_1="reactnative_synthesize_1"
 
 t_website_css_1="website_css_1"
+t_website_coolh5_1="website_coolh5_1"
 t_website_jekyll_1="website_jekyll_1"
 t_website_hexo_1="website_hexo_1"
 t_website_php_1="website_php_1"
@@ -229,9 +230,10 @@ echo "(301) $t_flutter_full_1"
 echo "(401) $t_vue_full_1"
 echo "(402) $t_vue_synthesize_1"
 echo "(501) $t_website_css_1"
-echo "(502) $t_website_jekyll_1"
-echo "(503) $t_website_hexo_1"
-echo "(504) $t_website_php_1"
+echo "(502) $t_website_coolh5_1"
+echo "(503) $t_website_jekyll_1"
+echo "(504) $t_website_hexo_1"
+echo "(505) $t_website_php_1"
 echo "(601) $t_game_synthesize_1"
 echo "(602) $t_game_smart_1"
 echo "(603) $t_game_chesscard_1"
@@ -282,12 +284,15 @@ case $input in
 		type=$t_website_css_1
 		;;
 	502)
+			type=$t_website_coolh5_1
+			;;
+	503)
 		type=$t_website_jekyll_1
 		;;
-	503)
+	504)
 		type=$t_website_hexo_1
 		;;
-	504)
+	505)
 		type=$t_website_php_1
 		;;
 	601)
@@ -504,6 +509,12 @@ if [ $type = $t_website_css_1 ];
 	then
 		jsurl=$jsurl_website
 		replacestr="\"dataWebsiteCss1\"\:\["
+fi
+
+if [ $type = $t_website_coolh5_1 ];
+	then
+		jsurl=$jsurl_website
+		replacestr="\"dataWebsiteCoolH51\"\:\["
 fi
 
 if [ $type = $t_website_jekyll_1 ];
