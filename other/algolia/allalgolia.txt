@@ -133,7 +133,7 @@
     "thumbUrl":"https://www.leachchen.com/storewebsite1/16/website1_16_t.png",
     "previewUrl":"http://velocityjs.org/",
     "downloadUrl":"https://codeload.github.com/julianshapiro/velocity/zip/master",
-    "description":"Velocity.js 一个功能齐全的 JavaScript 动画套件，包括诸如淡入淡出、滚动、滚动、停止、结束、翻转等动画效果[",
+    "description":"Velocity.js 一个功能齐全的 JavaScript 动画套件，包括诸如淡入淡出、滚动、滚动、停止、结束、翻转等动画效果",
     "type":"website_coolh5_1",
     "author":"",
     "authorurl":"https://github.com/julianshapiro",
