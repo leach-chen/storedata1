@@ -55,8 +55,9 @@ t_vue_synthesize_1="vue_synthesize_1"
 t_reactnative_full_1="reactnative_full_1"
 t_reactnative_synthesize_1="reactnative_synthesize_1"
 
-t_website_css_1="website_css_1"
 t_website_coolh5_1="website_coolh5_1"
+t_website_animationlib_1="website_animationlib_1"
+t_website_css_1="website_css_1"
 t_website_jekyll_1="website_jekyll_1"
 t_website_hexo_1="website_hexo_1"
 t_website_php_1="website_php_1"
@@ -234,6 +235,7 @@ echo "(502) $t_website_coolh5_1"
 echo "(503) $t_website_jekyll_1"
 echo "(504) $t_website_hexo_1"
 echo "(505) $t_website_php_1"
+echo "(506) $t_website_animationlib_1"
 echo "(601) $t_game_synthesize_1"
 echo "(602) $t_game_smart_1"
 echo "(603) $t_game_chesscard_1"
@@ -295,6 +297,9 @@ case $input in
 	505)
 		type=$t_website_php_1
 		;;
+	506)
+		type=$t_website_animationlib_1
+			;;
 	601)
 		type=$t_game_synthesize_1
 		;;
@@ -533,6 +538,12 @@ if [ $type = $t_website_php_1 ];
 	then
 		jsurl=$jsurl_website
 		replacestr="\"dataWebsitePhp1\"\:\["
+fi
+
+if [ $type = $t_website_animationlib_1 ];
+	then
+		jsurl=$jsurl_website
+		replacestr="\"dataWebsiteAnimationLib1\"\:\["
 fi
 
 
