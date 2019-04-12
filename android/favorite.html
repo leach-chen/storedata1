@@ -20,6 +20,14 @@
 		
 		 function addBox(result){
             alert(result)
+			var array = result.dataAndroidFull1.concat(result.dataAndroidAnimation1)
+                .concat(result.dataAndroidView1).concat(result.dataAndroidSynthesize1)
+                .concat(result.dataAndroidArchitecture1).concat(result.dataAndroidComponent1)
+				
+				for(var i = 0; i < array.length;i++)
+				{
+					console.log(array[i].id);
+				}
         }
 </script>
 </head>
