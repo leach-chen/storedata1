@@ -2,6 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
 <script src="https://unpkg.com/vue/dist/vue.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <!-- 引入样式 -->
@@ -58,8 +61,8 @@
 <div class="wrapper">
      <el-card class="box-card">
 		<div class="header-page">
-          <h1 class="page-title"></h1>
-          <div class="page-date"><time datetime="2019-01-25 08:37:00 +0000">2019, Jan 25</time>
+          <h1 class="page-title">{{description}}</h1>
+          <div class="page-date"><time datetime="2019-01-25 08:37:00 +0000">{{time}}</time>
 		  <span id="busuanzi_container_page_pv" style="display: inline;"> | 访问量：<span id="busuanzi_value_page_pv"></span> 次</span>
 		  </div>
         </div>
