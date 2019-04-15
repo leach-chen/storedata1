@@ -61,9 +61,15 @@
 <div class="wrapper">
      <el-card class="box-card">
 		<div class="header-page">
-          <h1 class="page-title">{{description}}</h1>
-          <div class="page-date"><time datetime="2019-01-25 08:37:00 +0000">{{time}}</time>
-		  <span id="busuanzi_container_page_pv" style="display: inline;"> | 访问量：<span id="busuanzi_value_page_pv"></span> 次</span>
+           <h1 class="page-title">{{description}}</h1>
+		   <div>
+			   <a :href="byauthorurl" target="_blank" style="margin-left:10px;font-size:10px;" v-if="byauthor!=''">By {{byauthor}}</a>
+			   <a :href="byauthorurl" target="_blank" style="margin-left:10px;font-size:10px;" v-else>By admin</a>
+			   <a :href="authorurl" target="_blank" style="font-size:14px;" v-if="author!=''">/ From {{author}}</a>
+			   <a :href="authorurl" target="_blank" style="font-size:14px;" v-else>/ From {{gitauthor}}</a>
+		   </div>
+          <!--<div class="page-date"><time datetime="2019-01-25 08:37:00 +0000">{{time}}</time>-->
+		  <!--<span id="busuanzi_container_page_pv" style="display: inline;"> | 访问量：<span id="busuanzi_value_page_pv"></span> 次</span>-->
 		  </div>
         </div>
 	</el-card>  

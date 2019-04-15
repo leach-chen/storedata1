@@ -67,3 +67,11 @@ html,body
     text-transform: uppercase;
     font-weight: 300;
 }
+
+.header-page a
+{
+	text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
