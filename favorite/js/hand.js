@@ -129,7 +129,7 @@ new Vue({
 					this.byauthorurl = array[i].byauthorurl
 					this.tag = array[i].tag
 					
-					if(this.previewUrl.toLowerCase().indexOf("jpg") || this.previewUrl.toLowerCase().indexOf("png") || this.previewUrl.toLowerCase().indexOf("gif"))
+					if(this.previewUrl.toLowerCase().indexOf("jpg") == 0 || this.previewUrl.toLowerCase().indexOf("png") == 0 || this.previewUrl.toLowerCase().indexOf("gif")  == 0)
 					{
 						this.isPreviewImage = true;
 					}else{
