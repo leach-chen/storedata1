@@ -137,9 +137,38 @@ new Vue({
 					}
 				}
 			}
-        }
+        },
+		judgeAdsense:function()
+		{
+		   var ua = navigator.userAgent;
+
+			var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+
+			isIphone =!ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+
+			isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+
+			isMobile = isIphone || isAndroid;
+
+			//判断
+
+			if(isMobile){
+				var pc = document.getElementById("pcuse")
+				if (pc != null)
+				{
+					pc.parentNode.removeChild(pc);
+				}
+			}else{
+				var phone = document.getElementById("phoneuse")
+				if (phone != null)
+				{
+					phone.parentNode.removeChild(phone);
+				}
+			}
+		}
   },
   mounted () {
 	this.request()
+	this.judgeAdsense()
   }
 })

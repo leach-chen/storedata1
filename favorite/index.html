@@ -15,55 +15,6 @@
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <script src="js/plugin.home.js"></script>
 <link rel="stylesheet"  type="text/css"  href="css/style.css"  />
-
-<script>
-
-	$(document).ready(function(){
-		  var url = getUrl()
-		  var judgeurl = url;
-      if(url.length>0)
-      {
-        document.getElementById("clickdownload").href=url;
-        window.location.href=url;
-      }
-		   var ua = navigator.userAgent;
-
-			var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
-
-			isIphone =!ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
-
-			isAndroid = ua.match(/(Android)\s+([\d.]+)/),
-
-			isMobile = isIphone || isAndroid;
-
-			//判断
-
-			if(isMobile){
-				var pc = document.getElementById("pcuse")
-				if (pc != null)
-				{
-					pc.parentNode.removeChild(pc);
-				}
-			}else{
-				var phone = document.getElementById("phoneuse")
-				if (phone != null)
-				{
-					phone.parentNode.removeChild(phone);
-				}
-			}
-			window.scrollTo(0, document.documentElement.clientHeight);
-		});
-
-		function getUrl() {
-			var result;
-			var url=window.location.search;
-			if(url.indexOf("?")!=-1){
-				result = url.substr(url.indexOf("=")+1);
-			}
-			return result;
-		}
-</script>
-
 </head>
 <body>
 <div id="app">
