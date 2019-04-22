@@ -7,6 +7,7 @@ new Vue({
 	thumbUrl: "",
 	previewUrl: "",
 	downloadUrl: "",
+	title:"",
 	description: "",
 	type: "",
 	author: "",
@@ -35,28 +36,28 @@ new Vue({
 			this.urlid = id;
 			
 			
-			if(id != null && id.indexOf("android") == 0)
+			if(id != null && id.indexOf("android") >= 0)
 			{
 				requestpath = "../android/android.js"
-			}else if(id != null && id.indexOf("flutter") == 0)
+			}else if(id != null && id.indexOf("flutter") >= 0)
 			{
 				requestpath = "../flutter/flutter.js"
-			}else if(id != null && id.indexOf("game") == 0)
+			}else if(id != null && id.indexOf("game") >= 0)
 			{
 				requestpath = "../game/game.js"
-			}else if(id != null && id.indexOf("ios") == 0)
+			}else if(id != null && id.indexOf("ios") >= 0)
 			{
 				requestpath = "../ios/ios.js"
-			}else if(id != null && id.indexOf("reactnative") == 0)
+			}else if(id != null && id.indexOf("reactnative") >= 0)
 			{
 				requestpath = "../reactnative/reactnative.js"
-			}else if(id != null && id.indexOf("tool") == 0)
+			}else if(id != null && id.indexOf("tool") >= 0)
 			{
 				requestpath = "../tool/tool.js"
-			}else if(id != null && id.indexOf("vue") == 0)
+			}else if(id != null && id.indexOf("vue") >= 0)
 			{
 				requestpath = "../vue/vue.js"
-			}else if(id != null && id.indexOf("website") == 0)
+			}else if(id != null && id.indexOf("website") >= 0)
 			{
 				requestpath = "../website/website.js"
 			}
@@ -119,6 +120,7 @@ new Vue({
 					this.thumbUrl = array[i].thumbUrl
 					this.previewUrl = array[i].previewUrl
 					this.downloadUrl = array[i].downloadUrl
+					this.title = array[i].title
 					this.description = array[i].description
 					this.type = array[i].type
 					this.author = array[i].author
@@ -129,7 +131,7 @@ new Vue({
 					this.byauthorurl = array[i].byauthorurl
 					this.tag = array[i].tag
 					
-					if(this.previewUrl.toLowerCase().indexOf("jpg") == 0 || this.previewUrl.toLowerCase().indexOf("png") == 0 || this.previewUrl.toLowerCase().indexOf("gif")  == 0)
+					if((this.previewUrl.toLowerCase().indexOf("jpg") >= 0) || (this.previewUrl.toLowerCase().indexOf("png") >= 0) || (this.previewUrl.toLowerCase().indexOf("gif")  >= 0))
 					{
 						this.isPreviewImage = true;
 					}else{

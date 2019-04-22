@@ -61,7 +61,7 @@
 <div class="wrapper">
      <el-card class="box-card">
 		<div class="header-page">
-           <h1>Android项目</h1>
+           <h1>{{title}}</h1>
 		   <div style="text-align:center;">
 			   <a :href="byauthorurl" target="_blank" style="margin-left:10px;font-size:10px;" v-if="byauthor!=''">By {{byauthor}}</a>
 			   <a :href="byauthorurl" target="_blank" style="margin-left:10px;font-size:10px;" v-else>By admin</a>
@@ -82,7 +82,7 @@
 		  </div>
 		  <p class="center-description" style="font-size:16px;" >{{description}}</p>
 		  <div class="center-page"  align="center">
-			 <img :src="thumbUrl"/>
+				 <img :src="thumbUrl" style="margin-bottom:10px;"/>
 				 <div id="pcuse" align="center">
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 					<!-- detailweb -->
