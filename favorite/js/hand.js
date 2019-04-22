@@ -165,7 +165,25 @@ new Vue({
 					phone.parentNode.removeChild(phone);
 				}
 			}
-		}
+		},
+		onPreview:function(url)
+        {
+            //alert(url)
+            window.open("https://www.leachchen.com/webopen/open.html?open="+url+"/");
+            //window.location.href = url;
+            //window.open(url);
+        },
+        onDownload(url)
+        {
+            //alert(url)
+            //window.location.href = url;
+            if(this.isTool == true)
+            {
+                window.open("https://www.leachchen.com/webopen/open.html?open="+url+"/");
+            }else{
+                window.open("https://www.leachchen.com/webopen/download.html?open="+url);
+            }
+        },
   },
   mounted () {
 	this.request()
