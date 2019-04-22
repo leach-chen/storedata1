@@ -16,6 +16,7 @@ new Vue({
 	byauthor: "",
 	byauthorurl: "",
 	tag: "",
+	isPreviewImage:	false,
   },
   methods:{
 	  getId:function()
@@ -127,6 +128,13 @@ new Vue({
 					this.byauthor = array[i].byauthor
 					this.byauthorurl = array[i].byauthorurl
 					this.tag = array[i].tag
+					
+					if(this.previewUrl.toLowerCase().indexOf("jpg") || this.previewUrl.toLowerCase().indexOf("png") || this.previewUrl.toLowerCase().indexOf("gif"))
+					{
+						this.isPreviewImage = true;
+					}else{
+						this.isPreviewImage = false;
+					}
 				}
 			}
         }

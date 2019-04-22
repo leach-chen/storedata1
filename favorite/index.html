@@ -15,6 +15,55 @@
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <script src="js/plugin.home.js"></script>
 <link rel="stylesheet"  type="text/css"  href="css/style.css"  />
+
+<script>
+
+	$(document).ready(function(){
+		  var url = getUrl()
+		  var judgeurl = url;
+      if(url.length>0)
+      {
+        document.getElementById("clickdownload").href=url;
+        window.location.href=url;
+      }
+		   var ua = navigator.userAgent;
+
+			var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+
+			isIphone =!ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+
+			isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+
+			isMobile = isIphone || isAndroid;
+
+			//判断
+
+			if(isMobile){
+				var pc = document.getElementById("pcuse")
+				if (pc != null)
+				{
+					pc.parentNode.removeChild(pc);
+				}
+			}else{
+				var phone = document.getElementById("phoneuse")
+				if (phone != null)
+				{
+					phone.parentNode.removeChild(phone);
+				}
+			}
+			window.scrollTo(0, document.documentElement.clientHeight);
+		});
+
+		function getUrl() {
+			var result;
+			var url=window.location.search;
+			if(url.indexOf("?")!=-1){
+				result = url.substr(url.indexOf("=")+1);
+			}
+			return result;
+		}
+</script>
+
 </head>
 <body>
 <div id="app">
@@ -61,18 +110,60 @@
 <div class="wrapper">
      <el-card class="box-card">
 		<div class="header-page">
-           <h1 class="page-title">{{description}}</h1>
-		   <div>
+           <h1>Android项目</h1>
+		   <div style="text-align:center;">
 			   <a :href="byauthorurl" target="_blank" style="margin-left:10px;font-size:10px;" v-if="byauthor!=''">By {{byauthor}}</a>
 			   <a :href="byauthorurl" target="_blank" style="margin-left:10px;font-size:10px;" v-else>By admin</a>
 			   <a :href="authorurl" target="_blank" style="font-size:14px;" v-if="author!=''">/ From {{author}}</a>
 			   <a :href="authorurl" target="_blank" style="font-size:14px;" v-else>/ From {{gitauthor}}</a>
 		   </div>
+		   
+		   <div>
+			   <a :href="previewUrl" target="_blank" style="font-size:16px;" v-if="!isPreviewImage">预览效果/</a> 
+			   <a :href="downloadUrl" target="_blank" style="font-size:16px;">源码下载</a>
+			   <iframe style="margin-left:10px;margin-top:10px;"
+						  frameborder="0" scrolling="0"  height="20px"
+						  :src="'https://ghbtns.com/github-btn.html?user='+gitauthor+'&repo='+gitrepo+'&type=star&count=true'" v-if="gitauthor!=''&&gitrepo!=''">
+			   </iframe>
+		   </div>
           <!--<div class="page-date"><time datetime="2019-01-25 08:37:00 +0000">{{time}}</time>-->
 		  <!--<span id="busuanzi_container_page_pv" style="display: inline;"> | 访问量：<span id="busuanzi_value_page_pv"></span> 次</span>-->
 		  </div>
-        </div>
-	</el-card>  
+		  <p class="center-description" style="font-size:16px;" >{{description}}</p>
+		  <div class="center-page"  align="center">
+			 <img :src="thumbUrl"/>
+				 <div id="pcuse" align="center">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- open -->
+					<ins class="adsbygoogle"
+						 style="display:block"
+						 data-ad-client="ca-pub-4924092018203651"
+						 data-ad-slot="8000704711"
+						 data-ad-format="auto"
+						 data-full-width-responsive="true"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+					</div>
+
+
+					<div id="phoneuse" align="center">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<ins class="adsbygoogle"
+							 style="display:block"
+							 data-ad-format="fluid"
+							 data-ad-layout-key="-fb+5w+4e-db+86"
+							 data-ad-client="ca-pub-4924092018203651"
+							 data-ad-slot="6057013753"></ins>
+						<script>
+							 (adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+				</div>
+			 <img :src="previewUrl" v-if="isPreviewImage"/>
+		  </div>
+	</el-card> 	  
+</div>
+	 
 </div>
 
 
