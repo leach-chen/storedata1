@@ -189,6 +189,8 @@ new Vue({
   },
   mounted () {
 	this.request()
+  },
+  created(){
 	this.judgeAdsense()
   }
 })
