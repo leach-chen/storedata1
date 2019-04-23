@@ -88,6 +88,7 @@ id=""
 thumbUrl=""
 previewUrl=""
 downloadUrl=""
+title=""
 description=""
 type=""
 author=""
@@ -208,6 +209,12 @@ if [ -z "$previewUrl" ];
 		previewUrl=$pre
 fi
 
+
+echo "----------------------------------"
+echo "请输入标题(title):"
+echo "----------------------------------"
+read titledec
+title=$titledec
 
 echo "----------------------------------"
 echo "请输入资源描述(description):"
@@ -412,6 +419,7 @@ fi
 thumbUrl=${thumbUrl//\//\\/}
 previewUrl=${previewUrl//\//\\/}
 downloadUrl=${downloadUrl//\//\\/}
+title=${title//\//\\/}
 description=${description//\//\\/}
 type=${type//\//\\/}
 author=${author//\//\\/}
@@ -609,10 +617,10 @@ fi
 time=`date +%Y%m%d%H%M%S`
 
 
-json="$replacestr{\n    \"id\":\"$id\",\n    \"thumbUrl\":\"$thumbUrl\",\n    \"previewUrl\":\"$previewUrl\",\n    \"downloadUrl\":\"$downloadUrl\",\n    \"description\":\"$description\",\n    \"type\":\"$type\",\n    \"author\":\"$author\",\n    \"authorurl\":\"$authorurl\",\n    \"gitauthor\":\"$gitauthor\",\n    \"gitrepo\":\"$gitrepo\",\n    \"byauthor\":\"$byauthor\",\n    \"byauthorurl\":\"$byauthorurl\",\n    \"sold\":true,\n    \"tag\":\"$tag\",\n  \"time\":\"$time\"\n  },"
+json="$replacestr{\n    \"id\":\"$id\",\n    \"thumbUrl\":\"$thumbUrl\",\n    \"previewUrl\":\"$previewUrl\",\n    \"downloadUrl\":\"$downloadUrl\",\n    \"title\":\"$title\",\n    \"description\":\"$description\",\n    \"type\":\"$type\",\n    \"author\":\"$author\",\n    \"authorurl\":\"$authorurl\",\n    \"gitauthor\":\"$gitauthor\",\n    \"gitrepo\":\"$gitrepo\",\n    \"byauthor\":\"$byauthor\",\n    \"byauthorurl\":\"$byauthorurl\",\n    \"sold\":true,\n    \"tag\":\"$tag\",\n  \"time\":\"$time\"\n  },"
 
 #json除了前缀其它和上面一致
-searchjson="{\n    \"id\":\"$id\",\n    \"thumbUrl\":\"$thumbUrl\",\n    \"previewUrl\":\"$previewUrl\",\n    \"downloadUrl\":\"$downloadUrl\",\n    \"description\":\"$description\",\n    \"type\":\"$type\",\n    \"author\":\"$author\",\n    \"authorurl\":\"$authorurl\",\n    \"gitauthor\":\"$gitauthor\",\n    \"gitrepo\":\"$gitrepo\",\n    \"byauthor\":\"$byauthor\",\n    \"byauthorurl\":\"$byauthorurl\",\n    \"sold\":true,\n    \"tag\":\"$tag\",\n  \"time\":\"$time\"\n  },"
+searchjson="{\n    \"id\":\"$id\",\n    \"thumbUrl\":\"$thumbUrl\",\n    \"previewUrl\":\"$previewUrl\",\n    \"downloadUrl\":\"$downloadUrl\",\n    \"title\":\"$title\",\n    \"description\":\"$description\",\n    \"type\":\"$type\",\n    \"author\":\"$author\",\n    \"authorurl\":\"$authorurl\",\n    \"gitauthor\":\"$gitauthor\",\n    \"gitrepo\":\"$gitrepo\",\n    \"byauthor\":\"$byauthor\",\n    \"byauthorurl\":\"$byauthorurl\",\n    \"sold\":true,\n    \"tag\":\"$tag\",\n  \"time\":\"$time\"\n  },"
 
 echo $json
 
