@@ -83,7 +83,7 @@
 		  </div>
 		  <p class="center-description" style="font-size:16px;" >{{description}}</p>
 		  <div class="center-page"  align="center">
-				 <img :src="thumbUrl" style="margin-bottom:10px;"/>
+				 <img :src="previewUrl" style="margin-bottom:10px;" v-if="isPreviewImage"/>
 				 <div id="pcuse" align="center">
 					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 					<!-- detailweb -->
@@ -111,7 +111,8 @@
 							 (adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
 				</div>
-			 <img :src="previewUrl" v-if="isPreviewImage"/>
+			  <img :src="thumbUrl" style="margin-top:10px;"/>
+			
 		  </div>
 	</el-card> 	  
 </div>
