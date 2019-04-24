@@ -34,8 +34,8 @@ new Vue({
 			var requestpath = ""
 			var id = this.getId();
 			this.urlid = id;
-			
-			
+
+
 			if(id != null && id.indexOf("android") >= 0)
 			{
 				requestpath = "../android/android.js"
@@ -61,11 +61,11 @@ new Vue({
 			{
 				requestpath = "../website/website.js"
 			}
-			
+
 			if(id != null)
 			{
 				 var that = this;
-				 $.ajax({ 
+				 $.ajax({
 							type: "Get",
 							url: requestpath,
 							dataType: "json",
@@ -73,7 +73,7 @@ new Vue({
 								that.handData(result)
 							}
 						});
-				
+
 			}
 		},
 		handData:function(result){
@@ -108,8 +108,8 @@ new Vue({
 			{
 				array = result.dataWebsiteCoolH51.concat(result.dataWebsiteAnimationLib1).concat(result.dataWebsiteCss1)
 			}
-			
-		
+
+
 			for(var i = 0; i < array.length;i++)
 			{
 				console.log(array[i].thumbUrl);
@@ -130,7 +130,7 @@ new Vue({
 					this.byauthor = array[i].byauthor
 					this.byauthorurl = array[i].byauthorurl
 					this.tag = array[i].tag
-					
+
 					if((this.previewUrl.toLowerCase().indexOf("jpg") >= 0) || (this.previewUrl.toLowerCase().indexOf("png") >= 0) || (this.previewUrl.toLowerCase().indexOf("gif")  >= 0))
 					{
 						this.isPreviewImage = true;
@@ -191,6 +191,6 @@ new Vue({
 	this.request()
   },
   created(){
-	this.judgeAdsense()
+
   }
 })
