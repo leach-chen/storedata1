@@ -72,8 +72,9 @@
 		   </div>
 
 		   <div>
-			   <a v-on:click="onPreview(previewUrl)" target="_blank" style="font-size:18px;cursor: pointer;" v-if="!isPreviewImage">预览效果/</a>
-			   <a v-on:click="onDownload(downloadUrl)" target="_blank" style="font-size:18px;cursor: pointer;">源码下载</a>
+			   <a v-on:click="onPreview(previewUrl)" target="_blank" style="font-size:18px;cursor: pointer;" v-if="!isPreviewImage">预览效果 / </a>
+			   <a v-on:click="onDownload(downloadUrl)" target="_blank" style="font-size:18px;cursor: pointer;">源码下载 / </a>
+			   <a :href="moreresource" target="_blank" style="font-size:18px;cursor: pointer;">更多资源</a>
 			   <iframe style="margin-left:10px;margin-top:10px;"
 						  frameborder="0" scrolling="0"  height="20px"
 						  :src="'https://ghbtns.com/github-btn.html?user='+gitauthor+'&repo='+gitrepo+'&type=star&count=true'" v-if="gitauthor!=''&&gitrepo!=''">

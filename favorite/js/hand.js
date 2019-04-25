@@ -18,6 +18,7 @@ new Vue({
 	byauthorurl: "",
 	tag: "",
 	isPreviewImage:	false,
+	moreresource:"https://www.leachchen.com/",
   },
   methods:{
 	  getId:function()
@@ -39,27 +40,35 @@ new Vue({
 			if(id != null && id.indexOf("android") >= 0)
 			{
 				requestpath = "../android/android.js"
+				this.moreresource="https://www.leachchen.com/github/android/all/"
 			}else if(id != null && id.indexOf("flutter") >= 0)
 			{
 				requestpath = "../flutter/flutter.js"
+				this.moreresource="https://www.leachchen.com/github/flutter/all/"
 			}else if(id != null && id.indexOf("game") >= 0)
 			{
 				requestpath = "../game/game.js"
+				this.moreresource="https://www.leachchen.com/game/all/"
 			}else if(id != null && id.indexOf("ios") >= 0)
 			{
 				requestpath = "../ios/ios.js"
+				this.moreresource="https://www.leachchen.com/github/flutter/all/"
 			}else if(id != null && id.indexOf("reactnative") >= 0)
 			{
 				requestpath = "../reactnative/reactnative.js"
+				this.moreresource="https://www.leachchen.com/github/reactnative/all/"
 			}else if(id != null && id.indexOf("tool") >= 0)
 			{
 				requestpath = "../tool/tool.js"
+				this.moreresource="https://www.leachchen.com/tool/all/"
 			}else if(id != null && id.indexOf("vue") >= 0)
 			{
 				requestpath = "../vue/vue.js"
+				this.moreresource="https://www.leachchen.com/github/vue/all/"
 			}else if(id != null && id.indexOf("website") >= 0)
 			{
 				requestpath = "../website/website.js"
+				this.moreresource="https://www.leachchen.com/github/h5/all/"
 			}
 
 			if(id != null)
