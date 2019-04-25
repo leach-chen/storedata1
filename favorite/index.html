@@ -83,7 +83,7 @@
           <!--<div class="page-date"><time datetime="2019-01-25 08:37:00 +0000">{{time}}</time>-->
 		  <!--<span id="busuanzi_container_page_pv" style="display: inline;"> | 访问量：<span id="busuanzi_value_page_pv"></span> 次</span>-->
 		  </div>
-		  <p class="center-description" style="font-size:16px;" >{{description}}</p>
+		  <p class="center-description" style="font-size:16px;" v-html="description"></p>
 		  <div class="center-page"  align="center">
 
 				<img :src="previewUrl" style="margin-bottom:10px;" v-if="isPreviewImage"/>
