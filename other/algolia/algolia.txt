@@ -1,5 +1,22 @@
 ﻿[
   //replace{
+    "id":"android_15",
+    "thumbUrl":"https://www.leachchen.com/storeandroid1/15/android1_15_t.png",
+    "previewUrl":"https://www.leachchen.com/storeandroid1/15/android1_15_p.gif",
+    "downloadUrl":"https://codeload.github.com/yangchaojiang/yjPlay/zip/master",
+    "title":"基于exoPlayer 自定义播放器 JPlayer",
+    "description":"一个支持自定义UI布局,流式API, 加密,直播 ,亮度,音量,快进等手势 ,广告视频预览,多种加载模式 ,多种分辨率切换 ,多种封面图, 自定义数据源,列表播放,倍数播放,边播变缓存不是使用AndroidVideoCache</font>,离线播放,神奇的播放器。<br><br>exoPlayer自定义播放器JPlayer支持功能：<br>ExoUserPlayer 基本播放（默认关闭手势 亮度，音量，快进，等手势，支持自定义布局）<br>自动适配适配TV。<br>支持横屏和竖屏两种模式全屏。<br>适配音频控制布局。<br>支持广告视频预览(轻松实现，完美切换，可自定义)。<br>支持多种分辨率视频切换。<br>缓存下载加密视频功能（边播变缓存轻松实现不是使用AndroidVideoCache。<br>支持自定义多种 kttp,Rtmp,Https,Cronet等协议。<br>支持列表集合 播放视频（列表到详情播放完美过度）<br>支持多种文件类型，MP4，M4A，WebM，Matroska,Ogg,WAV，MP3，MPEG-TS，MPEG-PS，FLV，ADTS (AAC)，Flac，M3U8,mkv 等。<br>支持网络类型 提示是否播放(可自定义屏蔽)。<br>支持视频加载布局, 错误布局,重播布局，提示布局自定义，更灵活实现自己布局样式。<br>支持视频加速慢速播放。<br>支持多种视频封面图（两种模式封面图）。<br>支持支持自定义MediaSource。<br>支持精简版和完整版，选择使用更丰富。<br>增加离线下载辅助类ExoWholeDownLoadManger,ExoWholeDownloadTracker,ExoDownLoadManger,DownloadService()-->戳我)<br>支持播放锁屏功能和控制布局显示显示动画效果.<br>支持返回按钮和全屏按钮图标自定义。<br>支持自定义视频封面布局.(视频封面图布局样式完美多样化)。<br>支持视频实时进度（头条底部进度）。<br>支持流式API方式调用。<br>",
+    "type":"android_media_1",
+    "author":"",
+    "authorurl":"https://github.com/yangchaojiang",
+    "gitauthor":"yangchaojiang",
+    "gitrepo":"yjPlay",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"android",
+  "time":"20190425160239"
+  },{
     "id":"android_14",
     "thumbUrl":"https://www.leachchen.com/storeandroid1/14/android1_14_t.jpg",
     "previewUrl":"https://www.leachchen.com/storeandroid1/14/android1_14_p.png",
