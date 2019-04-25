@@ -1,6 +1,23 @@
 [
 
   //replace{
+    "id":"android_16",
+    "thumbUrl":"https://www.leachchen.com/storeandroid1/16/android1_16_t.png",
+    "previewUrl":"https://www.leachchen.com/storeandroid1/16/android1_16_p.png",
+    "downloadUrl":"https://codeload.github.com/LanSoSdk/LanSoEditor_common/zip/master",
+    "title":"可能是android系统中对ffmpeg封装最好的免费SDK",
+    "description":"在android系统封装好的ffmpeg. 免费. 采用硬件加速,更快的视频转码.裁剪,剪切,分离,合并,转换,拼接,水印,叠加,混合,转码,压缩, 变速，添加LOGO，添加滤镜，添加背景音乐，加速减速视频，倒放音视频, 多个视频合成等工作; 和普通的ffmpeg相比, 更快速。<br><br><strong>主要特点:</strong><br>增加 H264硬件编码器 和 H264硬件解码器, 处理速度极大提升;<br>增加40多个常见方法,编写各种辅助处理类.<br>SDK已运行二年左右,商用APP200+.<br><br><strong>免费策略:</strong><br>此SDK已运行二年左右,商用APP200+, 现在免费.<br>H264硬件解码器免费，硬件加速编码器不免费; 免费版本自动切换到libx264编码<br>SDK不访问网络,完全本地处理.<br>个人和公司都可以商用,不需要和我们说明.<br>随我们专业版定期升级,维护.<br>遇到问题在issue中解答;<br>我们提供有偿技术支持和定制服务,详情见下面.",
+    "type":"android_media_1",
+    "author":"",
+    "authorurl":"https://github.com/LanSoSdk",
+    "gitauthor":"LanSoSdk",
+    "gitrepo":"LanSoEditor_common",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"android",
+  "time":"20190425162625"
+  },{
     "id":"android_15",
     "thumbUrl":"https://www.leachchen.com/storeandroid1/15/android1_15_t.png",
     "previewUrl":"https://www.leachchen.com/storeandroid1/15/android1_15_p.gif",
