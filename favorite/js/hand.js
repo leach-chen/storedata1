@@ -189,6 +189,7 @@ new Vue({
   },
   mounted () {
 	this.request()
+  (adsbygoogle = window.adsbygoogle || []).push({});
   },
   created(){
 
