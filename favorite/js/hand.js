@@ -188,8 +188,11 @@ new Vue({
         },
   },
   mounted () {
-	this.request()
+
+  this.request();
+
   (adsbygoogle = window.adsbygoogle || []).push({});
+
   },
   created(){
 
