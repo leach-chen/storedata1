@@ -27,6 +27,10 @@ new Vue({
 		var url=window.location.search;
 		if(url.indexOf("?")!=-1){
 			result = url.substr(url.indexOf("=")+1);
+      if(result.indexOf("&")!=-1)
+      {
+        result = result.substr(0,result.indexOf("&"));
+      }
 		}
 		return result;
 	  },
