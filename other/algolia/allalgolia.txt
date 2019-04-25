@@ -1,6 +1,23 @@
 [
 
-  //replace
+  //replace{
+    "id":"android_13",
+    "thumbUrl":"https://www.leachchen.com/storeandroid1/13/android1_13_t.png",
+    "previewUrl":"https://www.leachchen.com/storeandroid1/13/android1_13_p.gif",
+    "downloadUrl":"https://codeload.github.com/xuexiangjys/XAOP/zip/master",
+    "title":"一个轻量级的AOP(Android)应用框架",
+    "description":"一个轻量级的AOP(Android)应用框架。囊括了最实用的AOP应用。支持快速点击切片、支持动态申请权限切片、支持主线程切片、支持IO线程切片、支持日志打印切片...,具体，具体可点击start，前往项目主页查看具体介绍",
+    "type":"android_component_1",
+    "author":"",
+    "authorurl":"https://github.com/xuexiangjys",
+    "gitauthor":"xuexiangjys",
+    "gitrepo":"XAOP",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"android",
+  "time":"20190425134022"
+  },
 	{
 		"id": "android_1",
 		"time": "",
