@@ -2474,32 +2474,6 @@ button.control_next.fade-btn {
    3.14 SECTION: GOOGLE MAP
 -----------------------------------------*/
 
-#google-container {
-	position: relative;
-	width: 100%;
-	height: 500px;
-}
-
-#cd-google-map {
-	position: relative;
-	-webkit-transition: all ease 0.55s;
-	transition: all ease 0.55s;
-}
-
-#cd-google-map iframe {
-	margin-bottom: -8px;
-}
-
-#cd-google-map address {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	padding: 1em 1em;
-	opacity: 0.8;
-	color: #fff;
-}
-
 .parallax_one_map_overlay {
 	position: absolute;
 	z-index: 1;
@@ -7227,26 +7201,6 @@ h2.screen-reader-text {
 	content: "\e145";
 }.icon-social-flickr-square:before {
 	content: "\e146";
-}.icon-social-googledrive:before {
-	content: "\e147";
-}.icon-social-googledrive-alt2:before {
-	content: "\e148";
-}.icon-social-googledrive-square:before {
-	content: "\e149";
-}.icon-social-googleplus:before {
-	content: "\e14a";
-}.icon-social-googleplus-circle:before {
-	content: "\e14b";
-}.icon-social-googleplus-square:before {
-	content: "\e14c";
-}.icon-google-1:before {
-	content: "\e19f";
-}.icon-google-2:before {
-	content: "\e1a0";
-}.icon-google-3:before {
-	content: "\e1a1";
-}.icon-google-4:before {
-	content: "\e1a2";
 }.icon-social-instagram:before {
 	content: "\e14d";
 }.icon-social-instagram-circle:before {
