@@ -84,7 +84,9 @@
 		  </div>
 		  <p class="center-description" style="font-size:16px;" >{{description}}</p>
 		  <div class="center-page"  align="center">
-			  	<img :src="thumbUrl" style="margin-bottom:10px;"/>
+
+				<img :src="previewUrl" style="margin-bottom:10px;" v-if="isPreviewImage"/>
+			  <img :src="thumbUrl" style="margin-bottom:10px;" v-if="!isPreviewImage"/>
 
 				 <!--<div id="pcuse" align="center">
 					 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -108,7 +110,7 @@
 							 data-ad-client="ca-pub-4924092018203651"
 							 data-ad-slot="5093260726"></ins>
 				</div>
-			  <img :src="previewUrl" style="margin-top:10px;" v-if="isPreviewImage"/>
+			  <img :src="thumbUrl" style="margin-bottom:10px;"/>
 
 		  </div>
 	</el-card>
