@@ -92,7 +92,7 @@ new Vue({
 			{
 				array = result.dataAndroidFull1.concat(result.dataAndroidAnimation1)
                 .concat(result.dataAndroidView1).concat(result.dataAndroidSynthesize1)
-                .concat(result.dataAndroidArchitecture1).concat(result.dataAndroidComponent1);
+                .concat(result.dataAndroidArchitecture1).concat(result.dataAndroidComponent1).concat(result.dataAndroidMedia1);
 			}else if(id != null && id.indexOf("flutter") == 0)
 			{
 				 array = result.dataFlutterFull1
