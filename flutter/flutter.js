@@ -1,5 +1,22 @@
 {
 	"dataFlutterFull1":[{
+    "id":"flutter_5",
+    "thumbUrl":"https://www.leachchen.com/storeflutter1/5/flutter1_5_t.jpg",
+    "previewUrl":"https://www.leachchen.com/storeflutter1/5/flutter1_5_p.jpg",
+    "downloadUrl":"https://codeload.github.com/StrongX/readBook/zip/master",
+    "title":"flutter小说app",
+    "description":"一个小说app，用flutter实现，资源全部在线从起点和第三方网站爬取",
+    "type":"flutter_full_1",
+    "author":"",
+    "authorurl":"https://github.com/StrongX",
+    "gitauthor":"StrongX",
+    "gitrepo":"readBook",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"flutter",
+  "time":"20190430171807"
+  },{
     "id":"flutter_2",
     "thumbUrl":"https://www.leachchen.com/storeflutter1/2/flutter1_2_t.jpg",
     "previewUrl":"https://www.leachchen.com/storeflutter1/2/flutter1_2_p.jpg",
