@@ -54,6 +54,23 @@
 
 		}
 	],
-		"dataFlutterView1":[],
+		"dataFlutterView1":[{
+    "id":"flutter_4",
+    "thumbUrl":"https://www.leachchen.com/storeflutter1/4/flutter1_4_t.jpg",
+    "previewUrl":"https://www.leachchen.com/storeflutter1/4/flutter1_4_p.jpg",
+    "downloadUrl":"https://codeload.github.com/hayoi/custom_widget/zip/master",
+    "title":"Flutter 绘制时钟",
+    "description":"Flutter CustomPaint自定义控件 时钟",
+    "type":"flutter_view_1",
+    "author":"",
+    "authorurl":"https://github.com/hayoi",
+    "gitauthor":"hayoi",
+    "gitrepo":"custom_widget",
+    "byauthor":"",
+    "byauthorurl":"",
+    "sold":true,
+    "tag":"flutter",
+  "time":"20190430182045"
+  },],
 		"dataFlutterSynthesize1":[]
 }
