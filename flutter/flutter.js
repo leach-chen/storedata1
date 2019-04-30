@@ -1,8 +1,8 @@
 {
 	"dataFlutterFull1":[{
     "id":"flutter_3",
-    "thumbUrl":"https://www.leachchen.com/storeflutter1/5/flutter1_3_t.jpg",
-    "previewUrl":"https://www.leachchen.com/storeflutter1/5/flutter1_3_p.jpg",
+    "thumbUrl":"https://www.leachchen.com/storeflutter1/3/flutter1_3_t.jpg",
+    "previewUrl":"https://www.leachchen.com/storeflutter1/3/flutter1_3_p.jpg",
     "downloadUrl":"https://codeload.github.com/StrongX/readBook/zip/master",
     "title":"flutter小说app",
     "description":"一个小说app，用flutter实现，资源全部在线从起点和第三方网站爬取",
