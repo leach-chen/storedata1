@@ -53,5 +53,7 @@
 
 
 		}
-	]
+	],
+		"dataFlutterView1":[],
+		"dataFlutterSynthesize1":[],
 }
