@@ -99,7 +99,7 @@ new Vue({
                 .concat(result.dataAndroidArchitecture1).concat(result.dataAndroidComponent1).concat(result.dataAndroidMedia1);
 			}else if(id != null && id.indexOf("flutter") == 0)
 			{
-				 array = result.dataFlutterFull1
+				 array = result.dataFlutterFull1.concat(result.dataFlutterSynthesize1).concat(result.dataFlutterView1);
 			}else if(id != null && id.indexOf("game") == 0)
 			{
 				array = result.dataGameSynthesize1.concat(result.dataGameSmart1)
@@ -107,7 +107,7 @@ new Vue({
                 .concat(result.dataGameShoot1)
 			}else if(id != null && id.indexOf("ios") == 0)
 			{
-				array = result.dataIosFull1.concat(result.dataIosSynthesize1);
+				array = result.dataIosFull1.concat(result.dataIosSynthesize1).concat(result.dataIosView1);
 			}else if(id != null && id.indexOf("reactnative") == 0)
 			{
 				array = result.dataReactnativeFull1.concat(result.dataReactnativeSynthesize1)
