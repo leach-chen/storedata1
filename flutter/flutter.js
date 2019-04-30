@@ -71,6 +71,6 @@
     "sold":true,
     "tag":"flutter",
   "time":"20190430182045"
-  },],
+  }],
 		"dataFlutterSynthesize1":[]
 }
