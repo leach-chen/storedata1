@@ -18,7 +18,7 @@ new Vue({
 	byauthorurl: "",
 	tag: "",
 	isPreviewImage:	false,
-	moreresource:"https://www.leachchen.com/",
+	moreresource:"https://leach-chen.github.io/",
   },
   methods:{
 	  getId:function()
@@ -44,35 +44,35 @@ new Vue({
 			if(id != null && id.indexOf("android") >= 0)
 			{
 				requestpath = "../android/android.js"
-				this.moreresource="https://www.leachchen.com/github/android/all/"
+				this.moreresource="https://leach-chen.github.io/github/android/all/"
 			}else if(id != null && id.indexOf("flutter") >= 0)
 			{
 				requestpath = "../flutter/flutter.js"
-				this.moreresource="https://www.leachchen.com/github/flutter/all/"
+				this.moreresource="https://leach-chen.github.io/github/flutter/all/"
 			}else if(id != null && id.indexOf("game") >= 0)
 			{
 				requestpath = "../game/game.js"
-				this.moreresource="https://www.leachchen.com/game/all/"
+				this.moreresource="https://leach-chen.github.io/game/all/"
 			}else if(id != null && id.indexOf("ios") >= 0)
 			{
 				requestpath = "../ios/ios.js"
-				this.moreresource="https://www.leachchen.com/github/flutter/all/"
+				this.moreresource="https://leach-chen.github.io/github/flutter/all/"
 			}else if(id != null && id.indexOf("reactnative") >= 0)
 			{
 				requestpath = "../reactnative/reactnative.js"
-				this.moreresource="https://www.leachchen.com/github/reactnative/all/"
+				this.moreresource="https://leach-chen.github.io/github/reactnative/all/"
 			}else if(id != null && id.indexOf("tool") >= 0)
 			{
 				requestpath = "../tool/tool.js"
-				this.moreresource="https://www.leachchen.com/tool/all/"
+				this.moreresource="https://leach-chen.github.io/tool/all/"
 			}else if(id != null && id.indexOf("vue") >= 0)
 			{
 				requestpath = "../vue/vue.js"
-				this.moreresource="https://www.leachchen.com/github/vue/all/"
+				this.moreresource="https://leach-chen.github.io/github/vue/all/"
 			}else if(id != null && id.indexOf("website") >= 0)
 			{
 				requestpath = "../website/website.js"
-				this.moreresource="https://www.leachchen.com/github/h5/all/"
+				this.moreresource="https://leach-chen.github.io/github/h5/all/"
 			}
 
 			if(id != null)
@@ -184,7 +184,7 @@ new Vue({
 		onPreview:function(url)
         {
             //alert(url)
-            window.open("https://www.leachchen.com/webopen/open.html?open="+url+"/");
+            window.open("https://leach-chen.github.io/webopen/open.html?open="+url+"/");
             //window.location.href = url;
             //window.open(url);
         },
@@ -194,9 +194,9 @@ new Vue({
             //window.location.href = url;
             if(this.isTool == true)
             {
-                window.open("https://www.leachchen.com/webopen/open.html?open="+url+"/");
+                window.open("https://leach-chen.github.io/webopen/open.html?open="+url+"/");
             }else{
-                window.open("https://www.leachchen.com/webopen/download.html?open="+url);
+                window.open("https://leach-chen.github.io/webopen/download.html?open="+url);
             }
         },
   },
