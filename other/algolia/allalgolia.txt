@@ -2,8 +2,8 @@
 
   //replace{
     "id":"flutter_4",
-    "thumbUrl":"https://www.leachchen.com/storeflutter1/4/flutter1_4_t.jpg",
-    "previewUrl":"https://www.leachchen.com/storeflutter1/4/flutter1_4_p.jpg",
+    "thumbUrl":"https://leach-chen.github.io/storeflutter1/4/flutter1_4_t.jpg",
+    "previewUrl":"https://leach-chen.github.io/storeflutter1/4/flutter1_4_p.jpg",
     "downloadUrl":"https://codeload.github.com/hayoi/custom_widget/zip/master",
     "title":"Flutter 绘制时钟",
     "description":"Flutter CustomPaint自定义控件 时钟",
@@ -19,8 +19,8 @@
   "time":"20190430182045"
   },{
     "id":"flutter_5",
-    "thumbUrl":"https://www.leachchen.com/storeflutter1/3/flutter1_3_t.jpg",
-    "previewUrl":"https://www.leachchen.com/storeflutter1/3/flutter1_3_p.jpg",
+    "thumbUrl":"https://leach-chen.github.io/storeflutter1/3/flutter1_3_t.jpg",
+    "previewUrl":"https://leach-chen.github.io/storeflutter1/3/flutter1_3_p.jpg",
     "downloadUrl":"https://codeload.github.com/StrongX/readBook/zip/master",
     "title":"flutter小说app",
     "description":"一个小说app，用flutter实现，资源全部在线从起点和第三方网站爬取",
@@ -36,8 +36,8 @@
   "time":"20190430171807"
   },{
     "id":"android_20",
-    "thumbUrl":"https://www.leachchen.com/storeandroid1/20/android1_20_t.png",
-    "previewUrl":"https://www.leachchen.com/storeandroid1/20/android1_20_p.png",
+    "thumbUrl":"https://leach-chen.github.io/storeandroid1/20/android1_20_t.png",
+    "previewUrl":"https://leach-chen.github.io/storeandroid1/20/android1_20_p.png",
     "downloadUrl":"https://codeload.github.com/xufuji456/FFmpegAndroid/zip/master",
     "title":"FFmpegAndroid",
     "description":"android端基于FFmpeg实现音频剪切、拼接、转码、混音、编解码；视频剪切、水印、截图、转码、编解码、转Gif动图、画面拼接、视频倒播；音视频合成与分离；音视频解码、同步与播放；FFmpeg本地推流、H264与RTMP实时推流直播；OpenGL+GPUImage实时滤镜；FFmpeg滤镜：素描、色彩平衡、hue、lut、模糊、九宫格等；基于IjkPlayer修改支持RTSP超低延时直播(局域网1080P延时130ms)、暂停、静音，多路投屏直播",
@@ -53,8 +53,8 @@
   "time":"20190426182202"
   },{
     "id":"android_19",
-    "thumbUrl":"https://www.leachchen.com/storeandroid1/19/android1_19_t.jpg",
-    "previewUrl":"https://www.leachchen.com/storeandroid1/19/android1_19_p.jpg",
+    "thumbUrl":"https://leach-chen.github.io/storeandroid1/19/android1_19_t.jpg",
+    "previewUrl":"https://leach-chen.github.io/storeandroid1/19/android1_19_p.jpg",
     "downloadUrl":"https://codeload.github.com/WangShuo1143368701/FFmpegAndroid/zip/master",
     "title":"FFmpegAndroid",
     "description":"最新版ffmpeg3.3-android，并通过CMake方式移植到Android中,并实现编解码，转码，推拉流，滤镜等各种功能<br><br>ffmpeg实战教程专栏 http://blog.csdn.net/column/details/15511.html<br>windows平台 http://blog.csdn.net/king1425/article/details/71160339<br>Android平台 http://blog.csdn.net/king1425/article/details/71440809<br>ffmpeg源码教程： http://blog.csdn.net/king1425/article/details/70597642",
@@ -70,8 +70,8 @@
   "time":"20190425182531"
   },{
     "id":"android_18",
-    "thumbUrl":"https://www.leachchen.com/storeandroid1/18/android1_18_t.png",
-    "previewUrl":"https://www.leachchen.com/storeandroid1/18/android1_18_p.png",
+    "thumbUrl":"https://leach-chen.github.io/storeandroid1/18/android1_18_t.png",
+    "previewUrl":"https://leach-chen.github.io/storeandroid1/18/android1_18_p.png",
     "downloadUrl":"https://codeload.github.com/fly-studio/douyin-downloader/zip/master",
     "title":"抖音视频去水印",
     "description":"抖音分享到本APP，自动下载【无水印】的视频，现在抖音关闭了分享，但是可以复制链接去下载",
@@ -87,8 +87,8 @@
   "time":"20190425163431"
   },{
     "id":"android_17",
-    "thumbUrl":"https://www.leachchen.com/storeandroid1/17/android1_17_t.png",
-    "previewUrl":"https://www.leachchen.com/storeandroid1/17/android1_17_p.png",
+    "thumbUrl":"https://leach-chen.github.io/storeandroid1/17/android1_17_t.png",
+    "previewUrl":"https://leach-chen.github.io/storeandroid1/17/android1_17_p.png",
     "downloadUrl":"https://codeload.github.com/wbaizx/VideoLive/zip/master",
     "title":"android视频直播库",
     "description":"android视频直播库，视频H264,H265硬编码，音频AAC编码，使用UDP协议提供实时预览，传输，解码播放，录制功能。也支持单独语音对讲",
@@ -104,8 +104,8 @@
   "time":"20190425163148"
   },{
     "id":"android_16",
-    "thumbUrl":"https://www.leachchen.com/storeandroid1/16/android1_16_t.png",
-    "previewUrl":"https://www.leachchen.com/storeandroid1/16/android1_16_p.png",
+    "thumbUrl":"https://leach-chen.github.io/storeandroid1/16/android1_16_t.png",
+    "previewUrl":"https://leach-chen.github.io/storeandroid1/16/android1_16_p.png",
     "downloadUrl":"https://codeload.github.com/LanSoSdk/LanSoEditor_common/zip/master",
     "title":"可能是android系统中对ffmpeg封装最好的免费SDK",
     "description":"在android系统封装好的ffmpeg. 免费. 采用硬件加速,更快的视频转码.裁剪,剪切,分离,合并,转换,拼接,水印,叠加,混合,转码,压缩, 变速，添加LOGO，添加滤镜，添加背景音乐，加速减速视频，倒放音视频, 多个视频合成等工作; 和普通的ffmpeg相比, 更快速。<br><br><strong>主要特点:</strong><br>增加 H264硬件编码器 和 H264硬件解码器, 处理速度极大提升;<br>增加40多个常见方法,编写各种辅助处理类.<br>SDK已运行二年左右,商用APP200+.<br><br><strong>免费策略:</strong><br>此SDK已运行二年左右,商用APP200+, 现在免费.<br>H264硬件解码器免费，硬件加速编码器不免费; 免费版本自动切换到libx264编码<br>SDK不访问网络,完全本地处理.<br>个人和公司都可以商用,不需要和我们说明.<br>随我们专业版定期升级,维护.<br>遇到问题在issue中解答;<br>我们提供有偿技术支持和定制服务,详情见下面.",
@@ -121,8 +121,8 @@
   "time":"20190425162625"
   },{
     "id":"android_15",
-    "thumbUrl":"https://www.leachchen.com/storeandroid1/15/android1_15_t.png",
-    "previewUrl":"https://www.leachchen.com/storeandroid1/15/android1_15_p.gif",
+    "thumbUrl":"https://leach-chen.github.io/storeandroid1/15/android1_15_t.png",
+    "previewUrl":"https://leach-chen.github.io/storeandroid1/15/android1_15_p.gif",
     "downloadUrl":"https://codeload.github.com/yangchaojiang/yjPlay/zip/master",
     "title":"基于exoPlayer 自定义播放器 JPlayer",
     "description":"一个支持自定义UI布局,流式API, 加密,直播 ,亮度,音量,快进等手势 ,广告视频预览,多种加载模式 ,多种分辨率切换 ,多种封面图, 自定义数据源,列表播放,倍数播放,边播变缓存不是使用AndroidVideoCache</font>,离线播放,神奇的播放器。<br><br>exoPlayer自定义播放器JPlayer支持功能：<br>ExoUserPlayer 基本播放（默认关闭手势 亮度，音量，快进，等手势，支持自定义布局）<br>自动适配适配TV。<br>支持横屏和竖屏两种模式全屏。<br>适配音频控制布局。<br>支持广告视频预览(轻松实现，完美切换，可自定义)。<br>支持多种分辨率视频切换。<br>缓存下载加密视频功能（边播变缓存轻松实现不是使用AndroidVideoCache。<br>支持自定义多种 kttp,Rtmp,Https,Cronet等协议。<br>支持列表集合 播放视频（列表到详情播放完美过度）<br>支持多种文件类型，MP4，M4A，WebM，Matroska,Ogg,WAV，MP3，MPEG-TS，MPEG-PS，FLV，ADTS (AAC)，Flac，M3U8,mkv 等。<br>支持网络类型 提示是否播放(可自定义屏蔽)。<br>支持视频加载布局, 错误布局,重播布局，提示布局自定义，更灵活实现自己布局样式。<br>支持视频加速慢速播放。<br>支持多种视频封面图（两种模式封面图）。<br>支持支持自定义MediaSource。<br>支持精简版和完整版，选择使用更丰富。<br>增加离线下载辅助类ExoWholeDownLoadManger,ExoWholeDownloadTracker,ExoDownLoadManger,DownloadService()-->戳我)<br>支持播放锁屏功能和控制布局显示显示动画效果.<br>支持返回按钮和全屏按钮图标自定义。<br>支持自定义视频封面布局.(视频封面图布局样式完美多样化)。<br>支持视频实时进度（头条底部进度）。<br>支持流式API方式调用。<br>",
@@ -138,8 +138,8 @@
   "time":"20190425160239"
   },{
     "id":"android_14",
-    "thumbUrl":"https://www.leachchen.com/storeandroid1/14/android1_14_t.jpg",
-    "previewUrl":"https://www.leachchen.com/storeandroid1/14/android1_14_p.png",
+    "thumbUrl":"https://leach-chen.github.io/storeandroid1/14/android1_14_t.jpg",
+    "previewUrl":"https://leach-chen.github.io/storeandroid1/14/android1_14_p.png",
     "downloadUrl":"https://codeload.github.com/xuexiangjys/XUI/zip/master",
     "title":"一个简洁而优雅的Android原生UI框架，解放你的双手",
     "description":"一个简洁而又优雅的Android原生UI框架，解放你的双手。简洁优雅，尽可能少得引用资源文件的数量，项目库整体大小不足1M(打包后大约644k）。组件丰富，提供了绝大多数我们在开发者常用的功能组件。使用简单，为方便快速开发，提高开发效率，对api进行了优化，提供一键式接入。样式统一，框架提供了一系列统一的样式，使UI整体看上去美观和谐。兼容性高，框架还提供了3种不同尺寸设备的样式（4.5英寸、7英寸和10英寸），并且最低兼容到Android 17, 让UI兼容性更强。扩展性强，各组件提供了丰富的属性和样式API，可以通过设置不同的样式属性，构建不同风格的UI。",
@@ -155,8 +155,8 @@
   "time":"20190425151741"
   },{
     "id":"android_13",
-    "thumbUrl":"https://www.leachchen.com/storeandroid1/13/android1_13_t.png",
-    "previewUrl":"https://www.leachchen.com/storeandroid1/13/android1_13_p.gif",
+    "thumbUrl":"https://leach-chen.github.io/storeandroid1/13/android1_13_t.png",
+    "previewUrl":"https://leach-chen.github.io/storeandroid1/13/android1_13_p.gif",
     "downloadUrl":"https://codeload.github.com/xuexiangjys/XAOP/zip/master",
     "title":"一个轻量级的AOP(Android)应用框架",
     "description":"一个轻量级的AOP(Android)应用框架。囊括了最实用的AOP应用。支持快速点击切片、支持动态申请权限切片、支持主线程切片、支持IO线程切片、支持日志打印切片...,具体，具体可点击start，前往项目主页查看具体介绍",
@@ -174,8 +174,8 @@
 	{
 		"id": "android_1",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storeandroid1/1/android1_1_t.png",
-		"previewUrl": "https://www.leachchen.com/storeandroid1/1/android1_1_p.png",
+		"thumbUrl": "https://leach-chen.github.io/storeandroid1/1/android1_1_t.png",
+		"previewUrl": "https://leach-chen.github.io/storeandroid1/1/android1_1_p.png",
 		"downloadUrl": "https://codeload.github.com/harjot-oberai/MusicDNA/zip/master",
 		"title": "Android音乐播放器",
 		"description": "一款舒适的音乐播放器",
@@ -191,8 +191,8 @@
 	},
 	{
 		"id": "android_6",
-		"thumbUrl": "https://www.leachchen.com/storeandroid1/6/android1_6_t.png",
-		"previewUrl": "https://www.leachchen.com/storeandroid1/6/android1_6_p.gif",
+		"thumbUrl": "https://leach-chen.github.io/storeandroid1/6/android1_6_t.png",
+		"previewUrl": "https://leach-chen.github.io/storeandroid1/6/android1_6_p.gif",
 		"downloadUrl": "https://codeload.github.com/xh2009cn/GalleryAnimations/zip/master",
 		"title": "Android酷炫粒子动画合集",
 		"description": "炫酷的相册动画合集，集合了粒子、雪花、气泡、蝴蝶心形路径、星星、相册翻页等效果",
@@ -210,8 +210,8 @@
 	{
 		"id": "android_2",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storeandroid1/2/android1_2_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storeandroid1/2/android1_2_p.gif",
+		"thumbUrl": "https://leach-chen.github.io/storeandroid1/2/android1_2_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storeandroid1/2/android1_2_p.gif",
 		"downloadUrl": "https://codeload.github.com/Airbnb/lottie-android/zip/master",
 		"title": "Android lottie 动画",
 		"description": "airbnb的lottie酷炫动画库",
@@ -227,8 +227,8 @@
 	},
 	{
 		"id": "android_12",
-		"thumbUrl": "https://www.leachchen.com/storeandroid1/12/android1_12_t.png",
-		"previewUrl": "https://www.leachchen.com/storeandroid1/12/android1_12_p.gif",
+		"thumbUrl": "https://leach-chen.github.io/storeandroid1/12/android1_12_t.png",
+		"previewUrl": "https://leach-chen.github.io/storeandroid1/12/android1_12_p.gif",
 		"downloadUrl": "https://codeload.github.com/frakbot/CreditsRoll/zip/master",
 		"title": "Android自定义view 星球大战字幕",
 		"description": "实现星球大战字幕效果",
@@ -244,8 +244,8 @@
 		"time": "20190330232400"
 	}, {
 		"id": "android_11",
-		"thumbUrl": "https://www.leachchen.com/storeandroid1/11/android1_11_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storeandroid1/11/android1_11_p.gif",
+		"thumbUrl": "https://leach-chen.github.io/storeandroid1/11/android1_11_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storeandroid1/11/android1_11_p.gif",
 		"downloadUrl": "https://codeload.github.com/zcweng/SwitchButton/zip/master",
 		"title": "Android自定义view SwitchButton",
 		"description": "自定义view实现的SwitchButton多种样式",
@@ -261,9 +261,9 @@
 		"time": "20190330231943"
 	}, {
 		"id": "android_10",
-		"thumbUrl": "https://www.leachchen.com/storeandroid1/10/android1_10_t.png",
-		"previewUrl": "https://www.leachchen.com/storeandroid1/10/android1_10_p.gif",
-		"downloadUrl": "https://www.leachchen.com/storeandroid1/10/android1_10_d.zip",
+		"thumbUrl": "https://leach-chen.github.io/storeandroid1/10/android1_10_t.png",
+		"previewUrl": "https://leach-chen.github.io/storeandroid1/10/android1_10_p.gif",
+		"downloadUrl": "https://leach-chen.github.io/storeandroid1/10/android1_10_d.zip",
 		"title": "Android自定义view flappybird游戏",
 		"description": "kotlin语言写的android flappybird游戏，整个视图是一个自定义view。",
 		"type": "android_view_1",
@@ -278,8 +278,8 @@
 		"time": "20190328000553"
 	}, {
 		"id": "android_7",
-		"thumbUrl": "https://www.leachchen.com/storeandroid1/7/android1_7_t.png",
-		"previewUrl": "https://www.leachchen.com/storeandroid1/7/android1_7_p.gif",
+		"thumbUrl": "https://leach-chen.github.io/storeandroid1/7/android1_7_t.png",
+		"previewUrl": "https://leach-chen.github.io/storeandroid1/7/android1_7_p.gif",
 		"downloadUrl": "https://codeload.github.com/LichFaker/ScaleView/zip/master",
 		"title": "Android自定义view 刻度尺",
 		"description": "自定义view实现的滚动刻度尺,可水平和竖直方向",
@@ -296,8 +296,8 @@
 	}, {
 		"id": "android_5",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storeandroid1/5/android1_5_t.png",
-		"previewUrl": "https://www.leachchen.com/storeandroid1/5/android1_5_p.gif",
+		"thumbUrl": "https://leach-chen.github.io/storeandroid1/5/android1_5_t.png",
+		"previewUrl": "https://leach-chen.github.io/storeandroid1/5/android1_5_p.gif",
 		"downloadUrl": "https://codeload.github.com/Ajian-studio/GADownloading/zip/master",
 		"title": "Android自定义view LoadingView",
 		"description": "一款绚丽的LoadingView，有多种效果",
@@ -314,8 +314,8 @@
 	{
 		"id": "android_3",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storeandroid1/3/android1_3_t.png",
-		"previewUrl": "https://www.leachchen.com/storeandroid1/3/android1_3_p.gif",
+		"thumbUrl": "https://leach-chen.github.io/storeandroid1/3/android1_3_t.png",
+		"previewUrl": "https://leach-chen.github.io/storeandroid1/3/android1_3_p.gif",
 		"downloadUrl": "https://codeload.github.com/woxingxiao/BubbleSeekBar/zip/master",
 		"title": "Android自定义view SeekBar",
 		"description": "自定义SeekBar，进度变化更以可视化气泡样式呈现",
@@ -331,8 +331,8 @@
 	},
 	{
 		"id": "android_9",
-		"thumbUrl": "https://www.leachchen.com/storeandroid1/9/android1_9_t.png",
-		"previewUrl": "https://www.leachchen.com/storeandroid1/9/android1_9_p.gif",
+		"thumbUrl": "https://leach-chen.github.io/storeandroid1/9/android1_9_t.png",
+		"previewUrl": "https://leach-chen.github.io/storeandroid1/9/android1_9_p.gif",
 		"downloadUrl": "https://codeload.github.com/didi/DoraemonKit/zip/master",
 		"title": "Android 开发辅助工具",
 		"description": "一款辅助开发的工具,能够监测卡顿，CPU性能，沙盒目录查看等功能，添加依赖后APP里便会有入口进入各项功能选择界面。APP记得打开悬浮窗权限",
@@ -349,7 +349,7 @@
 	}, {
 		"id": "android_4",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storeandroid1/4/android1_4_t.png",
+		"thumbUrl": "https://leach-chen.github.io/storeandroid1/4/android1_4_t.png",
 		"previewUrl": "https://blankj.com/2016/07/31/android-utils-code/",
 		"downloadUrl": "https://codeload.github.com/Blankj/AndroidUtilCode/zip/master",
 		"title": "Android 工具类",
@@ -366,8 +366,8 @@
 	},
 	{
 		"id": "android_8",
-		"thumbUrl": "https://www.leachchen.com/storeandroid1/8/android1_8_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storeandroid1/8/android1_8_p.gif",
+		"thumbUrl": "https://leach-chen.github.io/storeandroid1/8/android1_8_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storeandroid1/8/android1_8_p.gif",
 		"downloadUrl": "https://codeload.github.com/scwang90/SmartRefreshLayout/zip/master",
 		"title": "Android 上拉下拉刷新控件",
 		"description": "下拉刷新、上拉加载、二级刷新、淘宝二楼、RefreshLayout、OverScroll，Android智能下拉刷新框架，支持越界回弹、越界拖动，具有极强的扩展性，集成了几十种炫酷的Header和 Footer",
@@ -384,8 +384,8 @@
 	},
 	{
 		"id": "flutter_2",
-		"thumbUrl": "https://www.leachchen.com/storeflutter1/2/flutter1_2_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storeflutter1/2/flutter1_2_p.jpg",
+		"thumbUrl": "https://leach-chen.github.io/storeflutter1/2/flutter1_2_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storeflutter1/2/flutter1_2_p.jpg",
 		"downloadUrl": "https://codeload.github.com/MeandNi/Flutter_ZhiHu/zip/master",
 		"title": "Flutter仿知乎App",
 		"description": "开发知乎App的Flutter版。技术栈：flutter+redux+sqflite。",
@@ -402,8 +402,8 @@
 	}, {
 		"id": "flutter_1",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storeflutter1/1/flutter1_1_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storeflutter1/1/flutter1_1_p.gif",
+		"thumbUrl": "https://leach-chen.github.io/storeflutter1/1/flutter1_1_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storeflutter1/1/flutter1_1_p.gif",
 		"downloadUrl": "https://codeload.github.com/alibaba/flutter-go/zip/master",
 		"title": "Flutter阿里学习项目",
 		"description": "阿里Flutter学习项目，组件丰富",
@@ -420,9 +420,9 @@
 	{
 		"id": "game_3",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storeh5game1/3/h5game1_3_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storeh5game1/3/h5game1_3_p/",
-		"downloadUrl": "https://www.leachchen.com/storeh5game1/3/h5game1_3_d.zip",
+		"thumbUrl": "https://leach-chen.github.io/storeh5game1/3/h5game1_3_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storeh5game1/3/h5game1_3_p/",
+		"downloadUrl": "https://leach-chen.github.io/storeh5game1/3/h5game1_3_d.zip",
 		"title": "H5酷跑游戏",
 		"description": "跑酷游戏，即刻挑战",
 		"type": "game_synthesize_1",
@@ -438,9 +438,9 @@
 	{
 		"id": "game_1",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storeh5game1/1/h5game1_1_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storeh5game1/1/h5game1_1_p_flappy/",
-		"downloadUrl": "https://www.leachchen.com/storeh5game1/1/h5game1_1_d_flappy.zip",
+		"thumbUrl": "https://leach-chen.github.io/storeh5game1/1/h5game1_1_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storeh5game1/1/h5game1_1_p_flappy/",
+		"downloadUrl": "https://leach-chen.github.io/storeh5game1/1/h5game1_1_d_flappy.zip",
 		"originalUrl": "",
 		"title": "H5 Flappy Bird游戏",
 		"description": "Flappy Bird 试试能得多少分",
@@ -457,9 +457,9 @@
 	{
 		"id": "game_2",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storeh5game1/2/h5game1_2_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storeh5game1/2/h5game1_2_p_fruit/",
-		"downloadUrl": "https://www.leachchen.com/storeh5game1/2/h5game1_2_d_fruit.zip",
+		"thumbUrl": "https://leach-chen.github.io/storeh5game1/2/h5game1_2_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storeh5game1/2/h5game1_2_p_fruit/",
+		"downloadUrl": "https://leach-chen.github.io/storeh5game1/2/h5game1_2_d_fruit.zip",
 		"originalUrl": "https://www.html5tricks.com/html5-fruit-ninja.html",
 		"title": "H5切水果游戏",
 		"description": "经典切水果游戏",
@@ -475,9 +475,9 @@
 	},
 	{
 		"id": "game_5",
-		"thumbUrl": "https://www.leachchen.com/storeh5game1/5/h5game1_5_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storeh5game1/5/h5game1_5_p/",
-		"downloadUrl": "https://www.leachchen.com/storeh5game1/5/h5game1_5_d.rar",
+		"thumbUrl": "https://leach-chen.github.io/storeh5game1/5/h5game1_5_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storeh5game1/5/h5game1_5_p/",
+		"downloadUrl": "https://leach-chen.github.io/storeh5game1/5/h5game1_5_d.rar",
 		"title": "H5象棋对战游戏",
 		"description": "象棋对战游戏，可设置难度",
 		"type": "game_chesscard_1",
@@ -492,9 +492,9 @@
 		"time": "20190319103534"
 	}, {
 		"id": "game_4",
-		"thumbUrl": "https://www.leachchen.com/storeh5game1/4/h5game1_4_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storeh5game1/4/h5game1_4_p/",
-		"downloadUrl": "https://www.leachchen.com/storeh5game1/4/h5game1_4_d.rar",
+		"thumbUrl": "https://leach-chen.github.io/storeh5game1/4/h5game1_4_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storeh5game1/4/h5game1_4_p/",
+		"downloadUrl": "https://leach-chen.github.io/storeh5game1/4/h5game1_4_d.rar",
 		"title": "H5五子棋对战游戏",
 		"description": "五子棋游戏，可设置对战难度",
 		"type": "game_chesscard_1",
@@ -510,8 +510,8 @@
 	},
 	{
 		"id": "game_7",
-		"thumbUrl": "https://www.leachchen.com/storeh5game1/7/h5game1_7_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storeh5game1/7/h5game1_7_p/",
+		"thumbUrl": "https://leach-chen.github.io/storeh5game1/7/h5game1_7_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storeh5game1/7/h5game1_7_p/",
 		"downloadUrl": "https://codeload.github.com/gd4Ark/linkup/zip/master",
 		"title": "H5连连看游戏",
 		"description": "连连看游戏",
@@ -528,8 +528,8 @@
 	},
 	{
 		"id": "game_6",
-		"thumbUrl": "https://www.leachchen.com/storeh5game1/6/h5game1_6_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storeh5game1/6/h5game1_6_p/",
+		"thumbUrl": "https://leach-chen.github.io/storeh5game1/6/h5game1_6_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storeh5game1/6/h5game1_6_p/",
 		"downloadUrl": "https://codeload.github.com/gd4Ark/star-battle/zip/master",
 		"title": "H5星际对战游戏",
 		"description": "星际大战,使用原生JavaScript ES6 + Canvas 开发的一个类似雷电战机的 HTML5 游戏",
@@ -547,8 +547,8 @@
 	{
 		"id": "ios_1",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storeios1/1/ios1_1_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storeios1/1/ios1_1_p.jpg",
+		"thumbUrl": "https://leach-chen.github.io/storeios1/1/ios1_1_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storeios1/1/ios1_1_p.jpg",
 		"downloadUrl": "https://codeload.github.com/Aufree/ESTMusicPlayer/zip/master",
 		"title": "IOS音乐播放器",
 		"description": "一款IOS音乐播放器",
@@ -564,8 +564,8 @@
 	},
 	{
 		"id": "ios_2",
-		"thumbUrl": "https://www.leachchen.com/storeios1/2/ios1_2_t.png",
-		"previewUrl": "https://www.leachchen.com/storeios1/2/ios1_2_p.gif",
+		"thumbUrl": "https://leach-chen.github.io/storeios1/2/ios1_2_t.png",
+		"previewUrl": "https://leach-chen.github.io/storeios1/2/ios1_2_p.gif",
 		"downloadUrl": "https://codeload.github.com/didi/DoraemonKit/zip/master",
 		"title": "IOS开发辅助工具",
 		"description": "一款辅助开发的工具,能够监测卡顿，屏幕取色，对齐标尺等等功能",
@@ -582,8 +582,8 @@
 	},
 	{
 		"id": "reactnative_11",
-		"thumbUrl": "https://www.leachchen.com/storereactnative1/11/reactnative1_11_t.png",
-		"previewUrl": "https://www.leachchen.com/storereactnative1/11/reactnative1_11_p.png",
+		"thumbUrl": "https://leach-chen.github.io/storereactnative1/11/reactnative1_11_t.png",
+		"previewUrl": "https://leach-chen.github.io/storereactnative1/11/reactnative1_11_p.png",
 		"downloadUrl": "https://codeload.github.com/fbsamples/f8app/zip/master",
 		"title": "ReactNative F8 App",
 		"description": "React Native最佳学习模版- F8 App开源了,界面和体验是相当的完美,这个是Facebook官方开发的",
@@ -599,8 +599,8 @@
 		"time": "20190329174120"
 	}, {
 		"id": "reactnative_10",
-		"thumbUrl": "https://www.leachchen.com/storereactnative1/10/reactnative1_10_t.png",
-		"previewUrl": "https://www.leachchen.com/storereactnative1/10/reactnative1_10_p.png",
+		"thumbUrl": "https://leach-chen.github.io/storereactnative1/10/reactnative1_10_t.png",
+		"previewUrl": "https://leach-chen.github.io/storereactnative1/10/reactnative1_10_p.png",
 		"downloadUrl": "https://codeload.github.com/attentiveness/reading/zip/master",
 		"title": "ReactNative Reading项目",
 		"description": "来自饿了么RN大神开源的reading项目,已经完成Android和iOS双适配",
@@ -616,8 +616,8 @@
 		"time": "20190329173736"
 	}, {
 		"id": "reactnative_9",
-		"thumbUrl": "https://www.leachchen.com/storereactnative1/9/reactnative1_9_t.png",
-		"previewUrl": "https://www.leachchen.com/storereactnative1/9/reactnative1_9_p.png",
+		"thumbUrl": "https://leach-chen.github.io/storereactnative1/9/reactnative1_9_t.png",
+		"previewUrl": "https://leach-chen.github.io/storereactnative1/9/reactnative1_9_p.png",
 		"downloadUrl": "https://codeload.github.com/stage88/react-weather/zip/master",
 		"title": "ReactNative 天气客户端",
 		"description": "该为国外一个天气预报客户端,界面效果简约优美，作者借鉴F8项目同时客户端数据来自真实国外的天气预报API",
@@ -633,8 +633,8 @@
 		"time": "20190329173334"
 	}, {
 		"id": "reactnative_8",
-		"thumbUrl": "https://www.leachchen.com/storereactnative1/8/reactnative1_8_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storereactnative1/8/reactnative1_8_p.jpg",
+		"thumbUrl": "https://leach-chen.github.io/storereactnative1/8/reactnative1_8_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storereactnative1/8/reactnative1_8_p.jpg",
 		"downloadUrl": "https://codeload.github.com/xiekw2010/react-native-gitfeed/zip/master",
 		"title": "ReactNative Github客户端",
 		"description": "该项目来自阿里开发人员,又一Github客户端",
@@ -650,8 +650,8 @@
 		"time": "20190329173031"
 	}, {
 		"id": "reactnative_7",
-		"thumbUrl": "https://www.leachchen.com/storereactnative1/7/reactnative1_7_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storereactnative1/7/reactnative1_7_p.png",
+		"thumbUrl": "https://leach-chen.github.io/storereactnative1/7/reactnative1_7_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storereactnative1/7/reactnative1_7_p.png",
 		"downloadUrl": "https://codeload.github.com/wwayne/react-native-nba-app/zip/master",
 		"title": "ReactNative NBA",
 		"description": "这个项目主要进行查看NBA相关数据,界面做的非常Nice，项目整体架构也非常不错,关键还有图表界面，同时适配Android和iOS双平台",
@@ -667,8 +667,8 @@
 		"time": "20190329171734"
 	}, {
 		"id": "reactnative_6",
-		"thumbUrl": "https://www.leachchen.com/storereactnative1/6/reactnative1_6_t.png",
-		"previewUrl": "https://www.leachchen.com/storereactnative1/6/reactnative1_6_p.jpg",
+		"thumbUrl": "https://leach-chen.github.io/storereactnative1/6/reactnative1_6_t.png",
+		"previewUrl": "https://leach-chen.github.io/storereactnative1/6/reactnative1_6_p.jpg",
 		"downloadUrl": "https://codeload.github.com/iSimar/HackerNews-React-Native/zip/master",
 		"title": "ReactNative Hacker",
 		"description": "Hacker News iOS and Android App - Made with React Native.",
@@ -684,8 +684,8 @@
 		"time": "20190329170440"
 	}, {
 		"id": "reactnative_5",
-		"thumbUrl": "https://www.leachchen.com/storereactnative1/5/reactnative1_5_t.png",
-		"previewUrl": "https://www.leachchen.com/storereactnative1/5/reactnative1_5_p.png",
+		"thumbUrl": "https://leach-chen.github.io/storereactnative1/5/reactnative1_5_t.png",
+		"previewUrl": "https://leach-chen.github.io/storereactnative1/5/reactnative1_5_p.png",
 		"downloadUrl": "https://codeload.github.com/ljunb/react-native-iShiWuPai/zip/master",
 		"title": "ReactNative 美食APP",
 		"description": "iShiWuPai是基于React Native实现的展示型美食类APP。该分支针对原生新版食物派开发，数据来源于【薄荷】，主要针对MobX练习，不做商业用途。目前已适配iOS和Android两端，适合刚入门React Native的朋友学习",
@@ -701,8 +701,8 @@
 		"time": "20190329165958"
 	}, {
 		"id": "reactnative_4",
-		"thumbUrl": "https://www.leachchen.com/storereactnative1/4/reactnative1_4_t.png",
-		"previewUrl": "https://www.leachchen.com/storereactnative1/4/reactnative1_4_p.gif",
+		"thumbUrl": "https://leach-chen.github.io/storereactnative1/4/reactnative1_4_t.png",
+		"previewUrl": "https://leach-chen.github.io/storereactnative1/4/reactnative1_4_p.gif",
 		"downloadUrl": "https://codeload.github.com/BelinChung/react-native-hiapp/zip/master",
 		"title": "ReactNative HiApp",
 		"description": "HiApp written in react-native",
@@ -718,8 +718,8 @@
 		"time": "20190329162926"
 	}, {
 		"id": "reactnative_3",
-		"thumbUrl": "https://www.leachchen.com/storereactnative1/3/reactnative1_3_t.png",
-		"previewUrl": "https://www.leachchen.com/storereactnative1/3/reactnative1_3_p.jpg",
+		"thumbUrl": "https://leach-chen.github.io/storereactnative1/3/reactnative1_3_t.png",
+		"previewUrl": "https://leach-chen.github.io/storereactnative1/3/reactnative1_3_p.jpg",
 		"downloadUrl": "https://codeload.github.com/togayther/react-native-cnblogs/zip/master",
 		"title": "ReactNative 博客园",
 		"description": "基于react-native实现的博客园移动客户端，兼容android和ios",
@@ -735,8 +735,8 @@
 		"time": "20190329162304"
 	}, {
 		"id": "reactnative_2",
-		"thumbUrl": "https://www.leachchen.com/storereactnative1/2/reactnative1_2_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storereactnative1/2/reactnative1_2_p.jpg",
+		"thumbUrl": "https://leach-chen.github.io/storereactnative1/2/reactnative1_2_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storereactnative1/2/reactnative1_2_p.jpg",
 		"downloadUrl": "https://codeload.github.com/zhongjie-chen/rn_rank/zip/master",
 		"title": "ReactNative 干货分享APP",
 		"description": "干货分享，支持Android、IOS的APP",
@@ -752,8 +752,8 @@
 		"time": "20190329161902"
 	}, {
 		"id": "reactnative_1",
-		"thumbUrl": "https://www.leachchen.com/storereactnative1/1/reactnative1_1_t.png",
-		"previewUrl": "https://www.leachchen.com/storereactnative1/1/reactnative1_1_p.gif",
+		"thumbUrl": "https://leach-chen.github.io/storereactnative1/1/reactnative1_1_t.png",
+		"previewUrl": "https://leach-chen.github.io/storereactnative1/1/reactnative1_1_p.gif",
 		"downloadUrl": "https://codeload.github.com/iwgang/GankCamp-React-Native/zip/master",
 		"title": "ReactNative Gank",
 		"description": "这是一款用react-native实现的Gank.io(干货集中营)客户端，支持Android及iOS，并针对不同平台的设计规范，界面也有一些差异化.",
@@ -770,8 +770,8 @@
 	},
 	{
 		"id": "tool_6",
-		"thumbUrl": "https://www.leachchen.com/storetool1/6/tool1_6_t.png",
-		"previewUrl": "https://www.leachchen.com/storetool1/6/tool1_6_p.gif",
+		"thumbUrl": "https://leach-chen.github.io/storetool1/6/tool1_6_t.png",
+		"previewUrl": "https://leach-chen.github.io/storetool1/6/tool1_6_p.gif",
 		"downloadUrl": "https://github.com/Genymobile/scrcpy/releases",
 		"title": "手机电脑投屏工具",
 		"description": "在电脑上实时查看手机界面的一款工具，还可以直接通过电脑上操作手机屏幕",
@@ -788,8 +788,8 @@
 	}, {
 		"id": "tool_5",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storetool1/5/tool1_5_t.png",
-		"previewUrl": "https://www.leachchen.com/storetool1/5/tool1_5_p.gif",
+		"thumbUrl": "https://leach-chen.github.io/storetool1/5/tool1_5_t.png",
+		"previewUrl": "https://leach-chen.github.io/storetool1/5/tool1_5_p.gif",
 		"downloadUrl": "https://iobit-unlocker.en.softonic.com/?ex=DSK-1262.7",
 		"title": "文件占用解锁工具",
 		"description": "一款免费方便使用的文件占用解锁工具",
@@ -805,8 +805,8 @@
 	}, {
 		"id": "tool_4",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storetool1/4/tool1_4_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storetool1/4/tool1_4_p.gif",
+		"thumbUrl": "https://leach-chen.github.io/storetool1/4/tool1_4_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storetool1/4/tool1_4_p.gif",
 		"downloadUrl": "https://www.cockos.com/licecap/",
 		"title": "Gif录制工具",
 		"description": "一款windows、mac系统录制gif动态图片的工具，免费简单方便使用",
@@ -822,8 +822,8 @@
 	}, {
 		"id": "tool_3",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storetool1/3/tool1_3_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storetool1/3/tool1_3_p.gif",
+		"thumbUrl": "https://leach-chen.github.io/storetool1/3/tool1_3_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storetool1/3/tool1_3_p.gif",
 		"downloadUrl": "https://chrome.google.com/webstore/search/octotree?utm_source=chrome-ntp-icon",
 		"title": "Github谷歌浏览器插件",
 		"description": "一款可以树形浏览Github代码的谷歌浏览器插件",
@@ -838,8 +838,8 @@
 	}, {
 		"id": "tool_2",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storetool1/2/tool1_2_t.png",
-		"previewUrl": "https://www.leachchen.com/storetool1/2/tool1_2_p.png",
+		"thumbUrl": "https://leach-chen.github.io/storetool1/2/tool1_2_t.png",
+		"previewUrl": "https://leach-chen.github.io/storetool1/2/tool1_2_p.png",
 		"downloadUrl": "https://netassist.updatestar.com/",
 		"title": "网络调试助手工具",
 		"description": "网络调试助手，可通过路由器收发手机端广播包",
@@ -856,8 +856,8 @@
 	{
 		"id": "tool_1",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storetool1/1/tool1_1_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storetool1/1/tool1_1_p.gif",
+		"thumbUrl": "https://leach-chen.github.io/storetool1/1/tool1_1_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storetool1/1/tool1_1_p.gif",
 		"downloadUrl": "https://atom.io/",
 		"title": "ATOM编辑器",
 		"description": "强大的ATOM编辑器，支持多种语言，插件丰富，推荐使用",
@@ -873,7 +873,7 @@
 	},
 	{
 		"id": "tool_7",
-		"thumbUrl": "https://www.leachchen.com/storetool1/7/tool1_7_t.png",
+		"thumbUrl": "https://leach-chen.github.io/storetool1/7/tool1_7_t.png",
 		"previewUrl": "https://www.yasuotu.com/moban",
 		"downloadUrl": "https://www.yasuotu.com/moban",
 		"title": "在线图片编辑工具",
@@ -892,7 +892,7 @@
 	{
 		"id": "vue_3",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storevue1/3/vue1_3_t.png",
+		"thumbUrl": "https://leach-chen.github.io/storevue1/3/vue1_3_t.png",
 		"previewUrl": "https://d2admin.fairyever.com",
 		"downloadUrl": "https://codeload.github.com/d2-projects/d2-admin/zip/master",
 		"title": "Vue d2admin前端模板",
@@ -909,7 +909,7 @@
 	}, {
 		"id": "vue_2",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storevue1/2/vue1_2_t.jpg",
+		"thumbUrl": "https://leach-chen.github.io/storevue1/2/vue1_2_t.jpg",
 		"previewUrl": "https://im.aermin.top/login",
 		"downloadUrl": "https://codeload.github.com/aermin/react-chat/zip/master",
 		"title": "Vue 即时聊天应用",
@@ -926,7 +926,7 @@
 	}, {
 		"id": "vue_1",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storevue1/1/vue1_1_t.jpg",
+		"thumbUrl": "https://leach-chen.github.io/storevue1/1/vue1_1_t.jpg",
 		"previewUrl": "http://panjiachen.github.io/vue-element-admin",
 		"downloadUrl": "https://codeload.github.com/PanJiaChen/vue-element-admin/zip/master",
 		"title": "Vue 完整后台管理系统",
@@ -943,7 +943,7 @@
 	},
 	{
 		"id": "vue_4",
-		"thumbUrl": "https://www.leachchen.com/storevue1/4/vue1_4_t.jpg",
+		"thumbUrl": "https://leach-chen.github.io/storevue1/4/vue1_4_t.jpg",
 		"previewUrl": "https://www.jianshu.com/p/c9a22c30cb2e",
 		"downloadUrl": "",
 		"title": "Vue 组件合集",
@@ -962,9 +962,9 @@
 	{
 		"id": "website_1",
 		"time": "",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/1/website1_1_t.png",
-		"previewUrl": "https://www.leachchen.com/storewebsite1/1/website1_1_p_highway",
-		"downloadUrl": "https://www.leachchen.com/storewebsite1/1/website1_1_d_highway.zip",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/1/website1_1_t.png",
+		"previewUrl": "https://leach-chen.github.io/storewebsite1/1/website1_1_p_highway",
+		"downloadUrl": "https://leach-chen.github.io/storewebsite1/1/website1_1_d_highway.zip",
 		"title": "旅游类型CSS网站",
 		"description": "旅游类型的纯CSS网站",
 		"type": "website_css_1",
@@ -979,9 +979,9 @@
 	},
 	{
 		"id": "website_15",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/15/website1_15_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storewebsite1/15/website1_15_p/",
-		"downloadUrl": "https://www.leachchen.com/storewebsite1/15/website1_15_d.zip",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/15/website1_15_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storewebsite1/15/website1_15_p/",
+		"downloadUrl": "https://leach-chen.github.io/storewebsite1/15/website1_15_d.zip",
 		"title": "CSS3立方体图片墙",
 		"description": "这是一款非常酷的CSS3立方体图片墙，在3D立方体的每一个面上都可以放置一张图片，你可以拖拽鼠标使立方体360旋转，非常具有立体感。而且立方体周围有发光的动画效果，这种发光效果的实现也是利用CSS3的相关特效，比较简单。",
 		"type": "website_coolh5_1",
@@ -996,9 +996,9 @@
 		"time": "20190401182727"
 	}, {
 		"id": "website_14",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/14/website1_14_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storewebsite1/14/website1_14_p/",
-		"downloadUrl": "https://www.leachchen.com/storewebsite1/14/website1_14_d.zip",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/14/website1_14_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storewebsite1/14/website1_14_p/",
+		"downloadUrl": "https://leach-chen.github.io/storewebsite1/14/website1_14_d.zip",
 		"title": "CSS3绘制会动的小猫",
 		"description": "CSS3绘制了小猫的脸部，非常生动，而且小猫的眼睛还耳朵还会萌动，十分可爱。",
 		"type": "website_coolh5_1",
@@ -1013,9 +1013,9 @@
 		"time": "20190401182528"
 	}, {
 		"id": "website_13",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/13/website1_13_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storewebsite1/13/website1_13_p/",
-		"downloadUrl": "https://www.leachchen.com/storewebsite1/13/website1_13_d.zip",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/13/website1_13_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storewebsite1/13/website1_13_p/",
+		"downloadUrl": "https://leach-chen.github.io/storewebsite1/13/website1_13_d.zip",
 		"title": "基于HTML5地图应用",
 		"description": "一款基于HTML5的地图应用，但它不同的地方在于它主要是在地图上实现分布动画，可以利用这款插件实现各个地区之间的客流流向，给人非常直观的数据展现。",
 		"type": "website_coolh5_1",
@@ -1030,9 +1030,9 @@
 		"time": "20190401182335"
 	}, {
 		"id": "website_12",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/12/website1_12_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storewebsite1/12/website1_12_p/",
-		"downloadUrl": "https://www.leachchen.com/storewebsite1/12/website1_12_d.zip",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/12/website1_12_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storewebsite1/12/website1_12_p/",
+		"downloadUrl": "https://leach-chen.github.io/storewebsite1/12/website1_12_d.zip",
 		"title": "HTML5图片切换动画",
 		"description": "这是一款很有特点的HTML5图片切换动画，点击左右按钮即可将图片进行弹性切换，图片在被切换时，都会产生一定的弹性缓冲动画效果。这款HTML5图片应用非常适合在产品宣传页面上使用，看上起十分大气。",
 		"type": "website_coolh5_1",
@@ -1047,9 +1047,9 @@
 		"time": "20190401182157"
 	}, {
 		"id": "website_11",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/11/website1_11_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storewebsite1/11/website1_11_p/",
-		"downloadUrl": "https://www.leachchen.com/storewebsite1/11/website1_11_d.zip",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/11/website1_11_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storewebsite1/11/website1_11_p/",
+		"downloadUrl": "https://leach-chen.github.io/storewebsite1/11/website1_11_d.zip",
 		"title": "纯CSS3绘制的苹果设备",
 		"description": "纯CSS3实现苹果设备 iPhone iPad iMac及iWatch,配合各自的界面壁纸，显得非常逼真，同时跟现实中的设备一样，屏幕同样具有切换的效果，只不过这个是定时切换，并不能滑动切换",
 		"type": "website_coolh5_1",
@@ -1064,9 +1064,9 @@
 		"time": "20190401181903"
 	}, {
 		"id": "website_10",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/10/website1_10_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storewebsite1/10/website1_10_p/",
-		"downloadUrl": "https://www.leachchen.com/storewebsite1/10/website1_10_d.zip",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/10/website1_10_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storewebsite1/10/website1_10_p/",
+		"downloadUrl": "https://leach-chen.github.io/storewebsite1/10/website1_10_d.zip",
 		"title": "HTML5视频播放器",
 		"description": "UI界面非常出色HTML5视频播放器，播放器具备播放/暂停、音量调节、全拼播放等功能，应该也算是比较完善了的",
 		"type": "website_coolh5_1",
@@ -1081,9 +1081,9 @@
 		"time": "20190401181650"
 	}, {
 		"id": "website_9",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/9/website1_9_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storewebsite1/9/website1_9_p/",
-		"downloadUrl": "https://www.leachchen.com/storewebsite1/9/website1_9_d.zip",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/9/website1_9_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storewebsite1/9/website1_9_p/",
+		"downloadUrl": "https://leach-chen.github.io/storewebsite1/9/website1_9_d.zip",
 		"title": "HTML5视频播放器",
 		"description": "HTML5视频播放器，但它的特点是支持手机移动页面，播放器的尺寸可以自适应各种设备",
 		"type": "website_coolh5_1",
@@ -1098,9 +1098,9 @@
 		"time": "20190401181334"
 	}, {
 		"id": "website_8",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/8/website1_8_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storewebsite1/8/website1_8_p/",
-		"downloadUrl": "https://www.leachchen.com/storewebsite1/8/website1_8_d.zip",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/8/website1_8_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storewebsite1/8/website1_8_p/",
+		"downloadUrl": "https://leach-chen.github.io/storewebsite1/8/website1_8_d.zip",
 		"title": "纯CSS3绘制的会动的大象",
 		"description": "一款纯CSS3实现的大象走路动画，大象走路时的形态表现的十分逼真，你可能不会想到，这么给力的动画居然是用纯CSS3实现的，很可爱的大象",
 		"type": "website_coolh5_1",
@@ -1115,14 +1115,14 @@
 		"time": "20190401180832"
 	}, {
 		"id": "website_7",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/7/website1_7_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storewebsite1/7/website1_7_p/",
-		"downloadUrl": "https://www.leachchen.com/storewebsite1/7/website1_7_d.zip",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/7/website1_7_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storewebsite1/7/website1_7_p/",
+		"downloadUrl": "https://leach-chen.github.io/storewebsite1/7/website1_7_d.zip",
 		"title": "HTML5烟花绽放",
 		"description": "在我的主页用的烟花绽放效果",
 		"type": "website_coolh5_1",
 		"author": "leach-chen",
-		"authorurl": "https://www.leachchen.com",
+		"authorurl": "https://leach-chen.github.io",
 		"gitauthor": "",
 		"gitrepo": "",
 		"byauthor": "",
@@ -1132,9 +1132,9 @@
 		"time": "20190401180449"
 	}, {
 		"id": "website_6",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/6/website1_6_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storewebsite1/6/website1_6_p/",
-		"downloadUrl": "https://www.leachchen.com/storewebsite1/6/website1_6_d.zip",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/6/website1_6_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storewebsite1/6/website1_6_p/",
+		"downloadUrl": "https://leach-chen.github.io/storewebsite1/6/website1_6_d.zip",
 		"title": "HTML5火球",
 		"description": "可以让你的屏幕上到处飞满火球，效果很酷。",
 		"type": "website_coolh5_1",
@@ -1149,9 +1149,9 @@
 		"time": "20190401175919"
 	}, {
 		"id": "website_5",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/5/website1_5_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storewebsite1/5/website1_5_p/",
-		"downloadUrl": "https://www.leachchen.com/storewebsite1/5/website1_5_d.zip",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/5/website1_5_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storewebsite1/5/website1_5_p/",
+		"downloadUrl": "https://leach-chen.github.io/storewebsite1/5/website1_5_d.zip",
 		"title": "HTML5烟花效果可控制速度",
 		"description": "烟花效果，可以控制烟花上升的速度和烟花绽放花朵的大小",
 		"type": "website_coolh5_1",
@@ -1166,9 +1166,9 @@
 		"time": "20190401175257"
 	}, {
 		"id": "website_4",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/4/website1_4_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storewebsite1/4/website1_4_p/",
-		"downloadUrl": "https://www.leachchen.com/storewebsite1/4/website1_4_d.zip",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/4/website1_4_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storewebsite1/4/website1_4_p/",
+		"downloadUrl": "https://leach-chen.github.io/storewebsite1/4/website1_4_d.zip",
 		"title": "HTML5魔幻特效",
 		"description": "比较魔幻的HTML5特效。它可以给网页上任意元素（图片、文字等）添加这么一种效果，即鼠标滑过时，元素上就会出现非常魔幻的动画特效。",
 		"type": "website_coolh5_1",
@@ -1183,9 +1183,9 @@
 		"time": "20190401175033"
 	}, {
 		"id": "website_3",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/3/website1_3_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storewebsite1/3/website1_3_p/",
-		"downloadUrl": "https://www.leachchen.com/storewebsite1/3/website1_3_d.zip",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/3/website1_3_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storewebsite1/3/website1_3_p/",
+		"downloadUrl": "https://leach-chen.github.io/storewebsite1/3/website1_3_d.zip",
 		"title": "有趣的JavaScript动画",
 		"description": "有趣的JavaScript动画，这种鼠标跟随动画应该也是很早就有的东西，特别是应用在一些个性化的个人博客中",
 		"type": "website_coolh5_1",
@@ -1200,9 +1200,9 @@
 		"time": "20190401174241"
 	}, {
 		"id": "website_2",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/2/website1_2_t.jpg",
-		"previewUrl": "https://www.leachchen.com/storewebsite1/2/website1_2_p/",
-		"downloadUrl": "https://www.leachchen.com/storewebsite1/2/website1_2_d.rar",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/2/website1_2_t.jpg",
+		"previewUrl": "https://leach-chen.github.io/storewebsite1/2/website1_2_p/",
+		"downloadUrl": "https://leach-chen.github.io/storewebsite1/2/website1_2_d.rar",
 		"title": "HTML5鲸鱼动画",
 		"description": "基于HTML5的鲸鱼动画，鲸鱼会随着鼠标的移动而游动，画面非常立体，鲸鱼也超级逼真",
 		"type": "website_coolh5_1",
@@ -1218,7 +1218,7 @@
 	},
 	{
 		"id": "website_24",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/24/website1_24_t.png",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/24/website1_24_t.png",
 		"previewUrl": "https://daneden.github.io/animate.css/",
 		"downloadUrl": "https://codeload.github.com/daneden/animate.css/zip/master",
 		"title": "Animate.css动画库",
@@ -1235,7 +1235,7 @@
 		"time": "20190411162509"
 	}, {
 		"id": "website_23",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/23/website1_23_t.png",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/23/website1_23_t.png",
 		"previewUrl": "https://animejs.com/",
 		"downloadUrl": "https://codeload.github.com/juliangarnier/anime/zip/master",
 		"title": "Anime.js动画库",
@@ -1252,7 +1252,7 @@
 		"time": "20190411161157"
 	}, {
 		"id": "website_22",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/22/website1_22_t.png",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/22/website1_22_t.png",
 		"previewUrl": "http://ianlunn.github.io/Hover/",
 		"downloadUrl": "https://codeload.github.com/IanLunn/Hover/zip/master",
 		"title": "Hover.css动画",
@@ -1269,7 +1269,7 @@
 		"time": "20190411160916"
 	}, {
 		"id": "website_21",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/21/website1_21_t.png",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/21/website1_21_t.png",
 		"previewUrl": "https://www.delac.io/wow/",
 		"downloadUrl": "https://codeload.github.com/matthieua/WOW/zip/master",
 		"title": "wow.js滚动动画",
@@ -1286,7 +1286,7 @@
 		"time": "20190411160737"
 	}, {
 		"id": "website_20",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/20/website1_20_t.png",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/20/website1_20_t.png",
 		"previewUrl": "https://scrollrevealjs.org/",
 		"downloadUrl": "https://codeload.github.com/scrollreveal/scrollreveal/zip/master",
 		"title": "scrollReveal.js滚动动画",
@@ -1303,7 +1303,7 @@
 		"time": "20190411160537"
 	}, {
 		"id": "website_19",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/19/website1_19_t.png",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/19/website1_19_t.png",
 		"previewUrl": "https://minimamente.com/example/magic_animations/",
 		"downloadUrl": "https://codeload.github.com/miniMAC/magic/zip/master",
 		"title": "Magic.css动画",
@@ -1320,7 +1320,7 @@
 		"time": "20190411160226"
 	}, {
 		"id": "website_18",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/18/website1_18_t.png",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/18/website1_18_t.png",
 		"previewUrl": "http://fian.my.id/Waves/",
 		"downloadUrl": "https://codeload.github.com/fians/Waves/zip/master",
 		"title": "波纹动画",
@@ -1337,7 +1337,7 @@
 		"time": "20190411155819"
 	}, {
 		"id": "website_17",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/17/website1_17_t.png",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/17/website1_17_t.png",
 		"previewUrl": "http://visionmedia.github.io/move.js/",
 		"downloadUrl": "https://codeload.github.com/visionmedia/move.js/zip/master",
 		"title": "move.js动画库",
@@ -1354,7 +1354,7 @@
 		"time": "20190411155609"
 	}, {
 		"id": "website_16",
-		"thumbUrl": "https://www.leachchen.com/storewebsite1/16/website1_16_t.png",
+		"thumbUrl": "https://leach-chen.github.io/storewebsite1/16/website1_16_t.png",
 		"previewUrl": "http://velocityjs.org/",
 		"downloadUrl": "https://codeload.github.com/julianshapiro/velocity/zip/master",
 		"title": "Velocity.js动画库",
