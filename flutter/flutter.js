@@ -1,8 +1,8 @@
 {
 	"dataFlutterFull1":[{
     "id":"flutter_3",
-    "thumbUrl":"https://www.leachchen.com/storeflutter1/3/flutter1_3_t.jpg",
-    "previewUrl":"https://www.leachchen.com/storeflutter1/3/flutter1_3_p.jpg",
+    "thumbUrl":"https://leach-chen.github.io/storeflutter1/3/flutter1_3_t.jpg",
+    "previewUrl":"https://leach-chen.github.io/storeflutter1/3/flutter1_3_p.jpg",
     "downloadUrl":"https://codeload.github.com/StrongX/readBook/zip/master",
     "title":"flutter小说app",
     "description":"一个小说app，用flutter实现，资源全部在线从起点和第三方网站爬取",
@@ -18,8 +18,8 @@
   "time":"20190430171807"
   },{
     "id":"flutter_2",
-    "thumbUrl":"https://www.leachchen.com/storeflutter1/2/flutter1_2_t.jpg",
-    "previewUrl":"https://www.leachchen.com/storeflutter1/2/flutter1_2_p.jpg",
+    "thumbUrl":"https://leach-chen.github.io/storeflutter1/2/flutter1_2_t.jpg",
+    "previewUrl":"https://leach-chen.github.io/storeflutter1/2/flutter1_2_p.jpg",
     "downloadUrl":"https://codeload.github.com/MeandNi/Flutter_ZhiHu/zip/master",
 		"title":"Flutter仿知乎App",
     "description":"开发知乎App的Flutter版。技术栈：flutter+redux+sqflite。",
@@ -36,8 +36,8 @@
   },{
 		  "id":"flutter_1",
 		  "time":"",
-			"thumbUrl":"https://www.leachchen.com/storeflutter1/1/flutter1_1_t.jpg",
-			"previewUrl":"https://www.leachchen.com/storeflutter1/1/flutter1_1_p.gif",
+			"thumbUrl":"https://leach-chen.github.io/storeflutter1/1/flutter1_1_t.jpg",
+			"previewUrl":"https://leach-chen.github.io/storeflutter1/1/flutter1_1_p.gif",
 			"downloadUrl": "https://codeload.github.com/alibaba/flutter-go/zip/master",
 			"title":"Flutter阿里学习项目",
 			"description":"阿里Flutter学习项目，组件丰富",
@@ -56,8 +56,8 @@
 	],
 		"dataFlutterView1":[{
     "id":"flutter_4",
-    "thumbUrl":"https://www.leachchen.com/storeflutter1/4/flutter1_4_t.jpg",
-    "previewUrl":"https://www.leachchen.com/storeflutter1/4/flutter1_4_p.jpg",
+    "thumbUrl":"https://leach-chen.github.io/storeflutter1/4/flutter1_4_t.jpg",
+    "previewUrl":"https://leach-chen.github.io/storeflutter1/4/flutter1_4_p.jpg",
     "downloadUrl":"https://codeload.github.com/hayoi/custom_widget/zip/master",
     "title":"Flutter 绘制时钟",
     "description":"Flutter CustomPaint自定义控件 时钟",

@@ -2,7 +2,7 @@
 	"dataVueFull1":[{
 		"id":"vue_3",
 		"time":"",
-    "thumbUrl":"https://www.leachchen.com/storevue1/3/vue1_3_t.png",
+    "thumbUrl":"https://leach-chen.github.io/storevue1/3/vue1_3_t.png",
     "previewUrl":"https://d2admin.fairyever.com",
     "downloadUrl":"https://codeload.github.com/d2-projects/d2-admin/zip/master",
 		"title":"Vue d2admin前端模板",
@@ -19,7 +19,7 @@
   },{
 		"id":"vue_2",
 		"time":"",
-    "thumbUrl":"https://www.leachchen.com/storevue1/2/vue1_2_t.jpg",
+    "thumbUrl":"https://leach-chen.github.io/storevue1/2/vue1_2_t.jpg",
     "previewUrl":"https://im.aermin.top/login",
     "downloadUrl":"https://codeload.github.com/aermin/react-chat/zip/master",
 		"title":"Vue 即时聊天应用",
@@ -36,7 +36,7 @@
   },{
 		"id":"vue_1",
 		"time":"",
-		"thumbUrl":"https://www.leachchen.com/storevue1/1/vue1_1_t.jpg",
+		"thumbUrl":"https://leach-chen.github.io/storevue1/1/vue1_1_t.jpg",
 		"previewUrl":"http://panjiachen.github.io/vue-element-admin",
 		"downloadUrl":"https://codeload.github.com/PanJiaChen/vue-element-admin/zip/master",
 		"title":"Vue 完整后台管理系统",
@@ -53,7 +53,7 @@
 	}],
 	"dataVueSynthesize1":[{
     "id":"vue_4",
-    "thumbUrl":"https://www.leachchen.com/storevue1/4/vue1_4_t.jpg",
+    "thumbUrl":"https://leach-chen.github.io/storevue1/4/vue1_4_t.jpg",
     "previewUrl":"https://www.jianshu.com/p/c9a22c30cb2e",
     "downloadUrl":"",
 		"title":"Vue 组件合集",	
